@@ -17,12 +17,38 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
+          items: [
+            {
+              label: 'VillageDefense',
+              to: '/villagedefense/',
+            },
+            {
+              label: 'BuildBattle',
+              to: '/buildbattle/',
+            },
+            {
+              label: 'MurderMystery',
+              to: '/murdermystery/',
+            },
+            {
+              label: 'TheBridge',
+              to: '/TheBridge/',
+            },
+          ],
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://translate.plugily.xyz',
+          label: 'Translate',
+          position: 'left',
+        },
+        {
+          href: 'https://beta.plugily.xyz',
+          label: 'Beta',
+          position: 'left',
+        },
         {
           href: 'https://github.com/Plugily-Projects',
           label: 'GitHub',
@@ -50,16 +76,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Feedbacky',
+              href: 'https://feedbacky.net',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.plugily.xyz',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/Plugily-Projects',
             },
           ],
         },
@@ -77,7 +103,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects. Built with Docusaurus. Hosted with GitHub-Pages`,
     },
   },
   presets: [
@@ -88,6 +114,9 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/Plugily-Projects/plugily-projects.github.io/blob/documentation/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          routeBasePath: "/",
         },
         blog: {
           showReadingTime: true,

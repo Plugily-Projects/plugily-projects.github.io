@@ -1,8 +1,7 @@
 ---
-id: doc1
+id: tempstyles
 title: Style Guide
 sidebar_label: Style Guide
-slug: /
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
@@ -43,9 +42,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 1. First ordered list item
 1. Another item
-   - Unordered sub-list.
+    - Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
+    1. Ordered sub-list
 1. And another item.
 
 * Unordered list can use asterisks
