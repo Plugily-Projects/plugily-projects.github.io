@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Plugily Projects Wiki',
+  tagline: 'The fastest way to find solutions',
   url: 'https://Plugily-Projects.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: 'Plugily Projects',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Plugily Projects Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -24,7 +24,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Plugily-Projects',
           label: 'GitHub',
           position: 'right',
         },
@@ -86,15 +86,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Plugily-Projects/plugily-projects.github.io/blob/documentation/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Plugily-Projects/plugily-projects.github.io/blob/documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
