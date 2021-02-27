@@ -8,8 +8,6 @@ slug: /villagedefense/
 ---
 Official Plugily Projects Wiki of the Village Defense plugin
 
-![](.gitbook/assets/vd.png)
-
 ## Get started
 
 | [Commands and Permissions](setup/cmd-perms.md) | [Simple arena setup](setup/simple-setup.md) | [Free Maps](setup/free-maps.md) | [Developers API](development/developer-api.md) | [FAQ](support/faq.md) |

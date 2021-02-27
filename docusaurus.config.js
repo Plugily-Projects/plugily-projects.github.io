@@ -34,7 +34,7 @@ module.exports = {
             },
             {
               label: 'TheBridge',
-              to: '/TheBridge/',
+              to: '/thebridge/',
             },
           ],
         },
@@ -59,19 +59,6 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
@@ -102,8 +89,25 @@ module.exports = {
             },
           ],
         },
+        {
+          title: 'Partner',
+          items: [
+            {
+              label: 'Retronode.net',
+              href: 'https://retronode.net',
+            },
+              {
+              //Renders the html pass-through instead of a simple link
+              html: `
+                <a href="https://retronode.net" target="_blank" rel="noreferrer noopener">
+                  <img src="https://retronode.net/img/new_banner.gif"/>
+                </a>
+              `,
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects. Built with Docusaurus. Hosted with GitHub-Pages`,
+      copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects`,
     },
   },
   presets: [
