@@ -43,19 +43,21 @@ Here you can set up MySQL plugin configuration. You need to enable MySQL first i
 Plugin is 95% translatable via **language.yml** file.
 
 * [Latest language.yml](https://raw.githubusercontent.com/Plugily-Projects/Village_Defense/master/src/main/resources/language.yml)
-
-:::warning
-## Attention
-
-As we got locales the plugin will create other files on the folder `/locales`
-
-The **only file you should edit** is the`language.yml` on the main plugin folder!
-:::
-
 However, you can use localization support which is implemented in MM.
 
 To change locale of plugin go to **config.yml** and modify **locale** value.
+:::warning
+Our locales system generates temporary files on `~/locales`
 
+The **only file you should edit** is the `language.yml` on the main plugin folder!
+:::
+### How can I edit my locale?
+:::important
+We have been looking for a perfect solution for a very long time.
+Currently you can change your `locale` by editing the `language.yml`.
+**It works like this:** The plugin loads the selected locale and everything in the language.yml that doesn't match the standard English sentence. It overwrites the locale and so you have your locale overwritten.
+So always remember to edit only in the `language.yml`.
+:::
 ###  **Valid localizations \(gathered via POEditor API\):**
 
 ```text

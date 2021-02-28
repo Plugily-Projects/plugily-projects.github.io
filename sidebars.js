@@ -46,6 +46,7 @@ module.exports = {
           Addon: [
             'villagedefense/addon/overview',
             'villagedefense/addon/cmdsandperms',
+            'villagedefense/addon/files',
             'villagedefense/addon/faq',
           ],
         }
@@ -96,6 +97,7 @@ module.exports = {
           Addon: [
             'buildbattle/addon/overview',
             'buildbattle/addon/cmdsandperms',
+            'buildbattle/addon/files',
             'buildbattle/addon/faq',
           ],
         }
@@ -146,6 +148,7 @@ module.exports = {
           Addon: [
             'murdermystery/addon/overview',
             'murdermystery/addon/cmdsandperms',
+            'murdermystery/addon/files',
             'murdermystery/addon/faq',
           ],
         }
@@ -197,6 +200,7 @@ module.exports = {
           Addon: [
             'thebridge/addon/overview',
             'thebridge/addon/cmdsandperms',
+            'thebridge/addon/files',
             'thebridge/addon/faq',
           ],
         }

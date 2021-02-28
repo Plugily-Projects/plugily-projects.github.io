@@ -17,5 +17,5 @@ After the game ends players receive message
 
 ## How can I translate messages?
 
-Sadly, you can't. This addon is meant to be used once for create custom kits and then have fun with extended Village Defense game. Messages aren't configurable too because they are mostly on the admin side, however, **all custom kits messages you create are fully configurable.**
+Sadly, you can't. This addon is meant to be used once for create custom kits and then have fun with extended Village Defense game. Messages aren't configurable too because they are mostly on the admin side, however, **all custom kits & achievements messages you create are fully configurable.**
 

@@ -37,7 +37,7 @@ After creating the instance you can start editing it with the next command:
 Now we are at a very simple stage were you just need to follow the instructions on menu. After you finished an instruction you may proceed to the next one by typing the command again \(and repeat until finished\):
 
 :::tip
-**Tip**: Make sure to read [**How can I set up the shop?**](simple-setup.md#how-can-i-set-up-the-shop)
+ Make sure to read [**How can I set up the shop?**](simple-setup.md#how-can-i-set-up-the-shop)
 :::
 
 ```text

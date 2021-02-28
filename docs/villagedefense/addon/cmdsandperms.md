@@ -7,12 +7,9 @@ sidebar_label: Commands and Permissions
 Overview about enhancements commands and permissions
 
 
-:::note
-
-\[required argument\] \(optional argument\)
-
+:::info
+`[required argument] (optional argument)`
 :::
-
 :::tip
 You can use `villagedefense.customkits.*` permission to give all commands permission
 :::

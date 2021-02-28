@@ -50,6 +50,16 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://patreon.com/plugily',
+          label: 'Patreon',
+          position: 'right',
+        },
+        {
+          href: 'https://donate.plugily.xyz',
+          label: 'Donate',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/Plugily-Projects',
           label: 'GitHub',
           position: 'right',

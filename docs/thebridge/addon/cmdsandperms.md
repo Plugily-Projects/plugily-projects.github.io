@@ -6,9 +6,11 @@ sidebar_label: Commands and Permissions
 ---
 Overview about enhancements commands and permissions
 
-## Custom kits module
-
+:::info
 `[required argument] (optional argument)`
+:::
+
+## Custom kits module
 
 :::tip
 You can use `thebridge.customkits.*` permission to give all commands permission
@@ -25,7 +27,7 @@ You can use `thebridge.customkits.*` permission to give all commands permission
 | /tba customkits mobgen \[iron\_golem/wolf\] \[amount of mobs\]       | thebridge.customkits.command.mobgen     | Create custom mobs for kits **\(they will be spawned at the start/per wave\)**                                |
 | /tba customkits commandgen \[player/console\] \[command\]            | thebridge.customkits.command.commandgen | Create command for kits **\(%player% placeholder supported\)**                                                |
 
-### Achievements module <a id="commands-and-permissions-achievements-module"></a>
+## Achievements module
 
 | Command                                                     | Permission                                | Description                                                                   |
 |-------------------------------------------------------------|-------------------------------------------|-------------------------------------------------------------------------------|
@@ -35,3 +37,8 @@ You can use `thebridge.customkits.*` permission to give all commands permission
 | /tba achievements delete \[name\]                           | thebridge.achievements.command.delete     | Deletes existing achievement                                                  |
 | /tba achievements edit \[name\]                             | thebridge.achievements.command.edit       | Edits existing achievement                                                    |
 | /tba achievements commandgen \[player/console\] \[command\] | thebridge.achievements.command.commandgen | Create reward command for achievements **\(%player% placeholder supported\)** |
+
+## Replay module
+| Command                           | Permission                   | Description       |
+|-----------------------------------|------------------------------|-------------------|
+| tbreplay [random, random_waiting] | Recommend thebridge.join.*   | Joins a new round |

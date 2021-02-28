@@ -13,7 +13,8 @@ Some basic questions and answers
 **What Murder Mystery modifies in the world:**
 
 * Visibility of players in the world
-*  **Might not be compatible with other minigames \(game behavior may broke\)**
+* Modifies armorstands that are used for the arena  
+* **Might not be compatible with other minigames \(game behavior may broke\)**
 
 :::caution
  **Using Murder Mystery you accept GPLv3 license and limitations of liability that Murder Mystery can cause, please become acquainted with following warnings before using Murder Mystery on a production server.**
@@ -48,7 +49,39 @@ To disable this go to **server.properties** and change **spawn-protection** valu
 
 ## Corpses last words and their permissions
 
-:::warning
+:::important
+Since version 1.7.5 you can add as many last words + permissions as you want.
+:::
+
+### How to add new ones?
+
+    Last-Words:
+      'default':
+        Message: "&fPlease respawn :("
+      'meme':
+        Message: "&fDespacito 2 is confirmed by God"
+        Permission: "murdermystery.lastwords.meme"
+      'rage':
+        Message: "&fWHY YOU KILLED ME?!!?"
+        Permission: "murdermystery.lastwords.rage"
+      'pro':
+        Message: "&fIt was lagging..."
+        Permission: "murdermystery.lastwords.pro"
+      'hacker':
+        Message: "Turn off your hacks..."
+        Permission: "murdermystery.lastwords.hacker"
+      ###HOW TO ADD A NEW ONE
+      'newLastWord':
+        Message: "Awesome new last word"
+        Permission: "murdermystery.lastwords.nicenewpermission"
+
+### How it works?
+For all `last words` a player has permissions to, a `last word` is **randomly** picked and displayed.
+If the player has no access to any last word, either the last word with **no permission** (priority) or the **first one in the list** will be picked out (fallback)
+
+
+### Deprecated (lower 1.7.5)
+:::info
 Last words are written in their permission order! First is meme so it will be displayed if player has both permissions for meme and pro for example.
 :::
 
@@ -60,9 +93,29 @@ Last words are written in their permission order! First is meme so it will be di
 | 4        | Default   | Please respawn :\(              | None                         |
 
 
-## Permissions for bow trails
+## Bow trails
 
-:::warning
+:::note
+[List with particles](https://minecraft.gamepedia.com/Particles)
+:::
+
+### Which particles/trails are inside the plugin?
+You can use all particles that are on your minecraft version as we are importing the particles of the server version that is running
+
+### How it works?
+For all `trails` a player has permissions to, a `trail` is **randomly** picked and displayed. 
+If the player has no access to any trail, it _will not display any trail_.
+
+### What are the permissions for trails?
+`murdermystery.trails.<lowercased_particle_name>`
+:::tip
+Example you want to give the heart particle to your players.
+
+Particle name: **HEART** -> lowercased: **heart** -> Permission: **`murdermystery.trails.heart`**
+:::
+
+### Deprecated (lower 1.7.5)
+:::info
  Trails are written in their permission order! First is heart so it will be displayed if player has both permissions for heart and flame for example.
 :::
 
