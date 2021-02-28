@@ -84,7 +84,7 @@ Basic-Permissions:
 Custom permissions are used for giving your players more orbs in game. Nothing more, nothing less.
 
 :::caution
-**Warn!** Using dots `.` in custom permissions will not work and will break permission, don't use them!
+Using dots `.` in custom permissions will not work and will break permission, don't use them!
 :::
 
 Custom permissions can be set up in **config.yml**:

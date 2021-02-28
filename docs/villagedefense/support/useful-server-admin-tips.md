@@ -7,7 +7,7 @@ sidebar_label: Useful server admin tips
 This section contains some useful tips to enhance your Village Defense server!
 
 :::caution
-**Warn!** These tips **should be EULA friendly, but may not**!
+These tips **should be EULA friendly, but may not**!
 :::
 
  **Let's start taking profit from our server!**

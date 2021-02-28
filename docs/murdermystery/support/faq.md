@@ -49,7 +49,7 @@ To disable this go to **server.properties** and change **spawn-protection** valu
 ## Corpses last words and their permissions
 
 :::warning
-**Warn!** Last words are written in their permission order! First is meme so it will be displayed if player has both permissions for meme and pro for example.
+Last words are written in their permission order! First is meme so it will be displayed if player has both permissions for meme and pro for example.
 :::
 
 | Priority | Last word | Description                     | Permission                   |
@@ -63,7 +63,7 @@ To disable this go to **server.properties** and change **spawn-protection** valu
 ## Permissions for bow trails
 
 :::warning
- **Warn!** Trails are written in their permission order! First is heart so it will be displayed if player has both permissions for heart and flame for example.
+ Trails are written in their permission order! First is heart so it will be displayed if player has both permissions for heart and flame for example.
 :::
 
 | Priority | Particle type | Permission                    |

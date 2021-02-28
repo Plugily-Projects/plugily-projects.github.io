@@ -9,7 +9,7 @@ description: Get the API and some examples
 Full java documentation: [https://jd.plajer.xyz/minecraft/villagedefense](https://jd.plajer.xyz/minecraft/villagedefense)
 
 :::warning
- **Danger!** Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
+ Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
 :::
 
 ## Maven repository <a id="maven"></a>
@@ -66,7 +66,7 @@ The event is called when a player is trying to join an arena.
 > **event\#isCancelled\(\)** - returns true if event is cancelled
 
 :::caution
- **Warn!** A message from language file is sent to the player when the attempt is cancelled \(see `In-Game.Join-Cancelled-Via-API` in language.yml\)
+ A message from language file is sent to the player when the attempt is cancelled \(see `In-Game.Join-Cancelled-Via-API` in language.yml\)
 :::
 
 ### **VillageGameStartEvent**
@@ -163,7 +163,7 @@ The event is called when the player chose kit in game.
 > **event\#isCancelled\(\)** - returns true if event is cancelled
 
 :::warning
- **Danger!** Cancelling the event doesn't really influence the in-game kit chooser, `#isCancelled()`should be used for external add-ons!
+ Cancelling the event doesn't really influence the in-game kit chooser, `#isCancelled()`should be used for external add-ons!
 :::
 
 ### **VillageWaveEndEvent**
@@ -327,13 +327,13 @@ To access sorted statistics Map with players you must call it from StatsStorage 
 ```
 
 :::warning
-**Danger!** Be aware of IndexOutOfBoundsException as the list might be not enough big!
+Be aware of IndexOutOfBoundsException as the list might be not enough big!
 :::
 
 ### **Available statistic types**
 
 :::warning
-**Danger!** Orbs statistic is temporary and shouldn't be used for out game usages!
+Orbs statistic is temporary and shouldn't be used for out game usages!
 :::
 
 | Statistic name \(enum\)     | Statistic identifier \(string\) \(for advanced things\) | Description                          |
@@ -408,7 +408,7 @@ To force player to join specified arena you can use our `ArenaManager` class.
 ```
 
 :::caution
-**Warn!** You should check is arena name exist otherwise it will throw NullPointerException
+You should check is arena name exist otherwise it will throw NullPointerException
 :::
 
 After that you can check for `#isCancelled()` if join attempt was cancelled or not.
@@ -426,6 +426,6 @@ You can also use `ArenaManager` class to force player to quit arena.
 ```
 
 :::caution
-**Warn!** You should check is arena isn't null otherwise it will throw NullPointerException
+You should check is arena isn't null otherwise it will throw NullPointerException
 :::
 

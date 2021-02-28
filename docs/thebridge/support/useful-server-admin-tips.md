@@ -12,7 +12,7 @@ This server admin tips were originally made for VillageDefense, so may change th
 :::
 
 :::warning
-**Warn!** These tips **should be EULA friendly, but may not**!
+These tips **should be EULA friendly, but may not**!
 :::
 
  **Let's start taking profit from our server!**

@@ -9,7 +9,7 @@ Get the API and some examples
 Full java documentation: [https://jd.plajer.xyz/minecraft/murdermystery](https://jd.plajer.xyz/minecraft/murdermystery)
 
 :::caution
- **Danger!** Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
+ Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
 :::
 
 ## Maven repository <a id="maven"></a>
@@ -193,7 +193,7 @@ To access sorted statistics hMap with players you must call it from StatsStorage
 ```
 
 :::caution
- **Danger!** Be aware of IndexOutOfBoundsException as the list might be not enough big!
+ Be aware of IndexOutOfBoundsException as the list might be not enough big!
 :::
 
 ### **Available statistic types**
@@ -233,7 +233,7 @@ To access sorted statistics hMap with players you must call it from StatsStorage
 ```
 
 :::warning
-**Warn!** You should check is arena name exist otherwise it will throw NullPointerException
+You should check is arena name exist otherwise it will throw NullPointerException
 :::
 
  After that you can check for `#isCancelled()` if join attempt was cancelled or not.
@@ -251,6 +251,6 @@ To access sorted statistics hMap with players you must call it from StatsStorage
 ```
 
 :::warning
- **Warn!** You should check is arena isn't null otherwise it will throw NullPointerException
+ You should check is arena isn't null otherwise it will throw NullPointerException
 :::
 
