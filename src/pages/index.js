@@ -8,32 +8,34 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Find your answer',
+    imageUrl: 'img/file_searching.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Plugily Projects always aims to provide the easiest plugins without missing
+          the fully configurable part. Therefore we created this wiki. Here you can
+          find easily your answer.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Search your answer',
+    imageUrl: 'img/algolia_search.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         Tired of finding solutions for your issues? You can easily search our wiki!
+         Type in, lookup, solution found. Nothing easier ;)
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Review your answer',
+    imageUrl: 'img/code_review.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          If you want to improve this wiki you can always help us by
+          clicking <code>edit this page</code>. We really appreciate your
+          help and others do as well!
       </>
     ),
   },

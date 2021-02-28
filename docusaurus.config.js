@@ -124,7 +124,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects`,
+      copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects. All rights reserved.`,
     },
   },
   presets: [
