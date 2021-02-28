@@ -14,7 +14,7 @@ Overview about enhancements commands and permissions
 :::
 
 :::tip
-**Tip!** You can use `villagedefense.customkits.*` permission to give all commands permission
+You can use `villagedefense.customkits.*` permission to give all commands permission
 :::
 
 | Command                                                              | Permission                                   | Description                                                                                                   |

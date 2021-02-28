@@ -11,7 +11,7 @@ Overview about enhancements commands and permissions
 `[required argument] (optional argument)`
 
 :::tip
-**Tip!** You can use `thebridge.customkits.*` permission to give all commands permission
+You can use `thebridge.customkits.*` permission to give all commands permission
 :::
 
 | Command                                                              | Permission                              | Description                                                                                                   |

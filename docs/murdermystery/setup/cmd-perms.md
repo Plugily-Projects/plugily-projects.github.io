@@ -24,7 +24,7 @@ Overview about all commands and permissions
 ## Admin
 
 :::tip
- **Tip!** You can use `murdermystery.admin.*` permission to give all admin commands permission
+ You can use `murdermystery.admin.*` permission to give all admin commands permission
 :::
 
 | Command | Permission | Description | Valid Executors |

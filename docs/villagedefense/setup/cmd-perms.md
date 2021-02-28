@@ -28,7 +28,7 @@ Overview about all commands and permissions
 ## Admin
 
 :::tip
- **Tip!** You can use `villagedefense.admin.*` permission to give all admin commands permission
+ You can use `villagedefense.admin.*` permission to give all admin commands permission
 :::
 
 | Command                             | Permission                                                           | Description                                                                     | Valid excecutors                                 |

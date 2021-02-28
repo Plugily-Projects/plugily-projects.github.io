@@ -72,7 +72,7 @@ To change locale of plugin go to **config.yml** and modify **locale** value.
 ```
 
 :::tip
- **Tip!** [You can always translate our plugin for free by joining here \(click\)](https://translate.plugily.xyz)
+ [You can always translate our plugin for free by joining here \(click\)](https://translate.plugily.xyz)
 :::
 
 ## Stats storage types
