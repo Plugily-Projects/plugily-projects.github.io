@@ -50,6 +50,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: '/feedback/',
+          label: 'Feedback(y)',
+          position: 'left',
+        },
+        {
           href: 'https://patreon.com/plugily',
           label: 'Patreon',
           position: 'right',
