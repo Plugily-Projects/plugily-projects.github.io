@@ -75,3 +75,10 @@ There are few special shop items that you can put into the shop to enhance gamep
 * **Special kit items**
   * Soon
 
+## How does randomjoin work?
+
+### There are kinda like two cases:
+
+All arenas on `waiting for players` stage: It will send players to a random arena
+
+One (or more) arenas are on `starting` stage: It will send players to the arena with the most players

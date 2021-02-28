@@ -42,3 +42,10 @@ It's **caused by spawn protection** feature in vanilla Minecraft.
 
 To disable this go to **server.properties** and change **spawn-protection** value **to 0**.
 
+## How does randomjoin work?
+
+### There are kinda like two cases:
+
+All arenas on `waiting for players` stage: It will send players to a random arena
+
+One (or more) arenas are on `starting` stage: It will send players to the arena with the most players
