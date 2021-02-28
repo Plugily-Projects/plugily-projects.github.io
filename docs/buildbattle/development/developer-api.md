@@ -50,7 +50,7 @@ The event is called **everytime** any Build Battle event is called because it's 
 
 **Example:**
 
-```text
+```js
     @EventHandler
     public void onEventCall(BBEvent event){
         if(event instanceof BBGameChangeStateEvent){
@@ -67,7 +67,7 @@ The event is called when a player is trying to join an arena.
 
 **Example:**
 
-```text
+```js
     @EventHandler
     public void onGameJoin(BBGameJoinEvent event){
         event.getPlayer().sendMessage("You have joined " + event.getArena().getID());
@@ -86,7 +86,7 @@ The event is called when the arena starts.
 
 **Example:**
 
-```text
+```js
     @EventHandler
     public void onGameStart(BBGameStartEvent event){
         for(Player p : event.getArena().getPlayers()){
@@ -103,7 +103,7 @@ The event is called when a player is trying to leave an arena.
 
 **Example:**
 
-```text
+```js
     @EventHandler
     public void onGameQuit(BBGameLeaveEvent event){
         event.getPlayer().sendMessage("You have quitted" + e.getArena().getID());
@@ -120,7 +120,7 @@ The event is called when a game has ended.
 
 **Example:**
 
-```text
+```js
     @EventHandler
     public void onGameStop(BBGameStartEvent event){
         for(Player p : event.getArena().getPlayers()){
@@ -137,7 +137,7 @@ The event is called when a game arena state has changed.
 
 **Example:**
 
-```text
+```js
     @EventHandler
     public void onGameStop(BBGameStateChangeEvent event){
         ArenaState prev = event.getPreviousState();
@@ -162,7 +162,7 @@ You can easily get online players stats using BB3 API - Stats Storage class.
 
 **Example:**
 
-```text
+```js
     public int getWins(Player p){
         return StatsStorage.getUserStats(p, StatsStorage.StatisticType.WINS);
     }
@@ -176,7 +176,7 @@ To access sorted statistics hMap with players you must call it from StatsStorage
 
 **Example:**
 
-```text
+```js
     public void printBestStats(StatsStorage.StatisticType statistic){
         Map<UUID, Integer> statsMap = StatsStorage.getStats(statistic);
         UUID[] uuidsArray = (UUID[]) StatsStorage.getStats(statistic).keySet().toArray();
@@ -208,7 +208,7 @@ Be aware of IndexOutOfBoundsException as the list might be not enough big!
 
 To force player to join specified arena you can use our `ArenaManager` class.
 
-```text
+```js
   public void sendPlayerToArena(String arena, Player player){
     ArenaManager.joinAttempt(player, ArenaRegistry.getArena(arena));
   }
@@ -230,7 +230,7 @@ You should check is arena name exist otherwise it will throw NullPointerExceptio
 
 You can also use `ArenaManager` class to force player to quit arena.
 
-```text
+```js
   public void forcePlayerQuit(Player player){
     Arena arena = ArenaRegistry.getArena(player);
 

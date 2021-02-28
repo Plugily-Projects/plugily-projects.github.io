@@ -6,10 +6,10 @@ sidebar_label: DeveloperApi
 ---
 Get the API and some examples
 
-Full java documentation: [https://jd.plajer.xyz/minecraft/murdermystery](https://jd.plajer.xyz/minecraft/murdermystery)
+Full js documentation: [https://jd.plajer.xyz/minecraft/murdermystery](https://jd.plajer.xyz/minecraft/murdermystery)
 
 :::caution
- Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
+ Contents may be not up to date! Please use js docs instead. Here you can only get some simple examples.
 :::
 
 ## Maven repository <a id="maven"></a>
@@ -50,7 +50,7 @@ The event is called when a player is trying to join an arena.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameJoin(MMGameJoinAttemptEvent event){
         event.getPlayer().sendMessage("You have joined " + event.getArena().getID());
@@ -69,7 +69,7 @@ The event is called when the arena starts.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStart(MMGameStartEvent event){
         for(Player p : event.getArena().getPlayers()){
@@ -86,7 +86,7 @@ The event is called when a player is trying to leave an arena.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameQuit(MMGameLeaveAttemptEvent event){
         event.getPlayer().sendMessage("You have quitted" + e.getArena().getID());
@@ -103,7 +103,7 @@ The event is called when a game has ended.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStop(MMGameEndEvent event){
         for(Player p : event.getArena().getPlayers()){
@@ -120,7 +120,7 @@ The event is called when a game arena state has changed.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStop(MMGameStateChangeEvent event){
         ArenaState prev = event.getPreviousState();
@@ -137,7 +137,7 @@ The event is called when the player receives a new statistic.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onStatChange(MMPlayerStatisticChangeEvent event){
         StatisticType stat = e.getStatisticType();
@@ -168,7 +168,7 @@ You can easily get online players stats using MM API - Stats Storage class.
 
  **Example:**
 
-```java
+```js
     public int getWins(Player p){
         return StatsStorage.getUserStats(p, StatsStorage.StatisticType.WINS);
     }
@@ -182,7 +182,7 @@ To access sorted statistics hMap with players you must call it from StatsStorage
 
  **Example:**
 
-```java
+```js
     public void printBestStats(StatsStorage.StatisticType statistic){
         Map<UUID, Integer> statsMap = StatsStorage.getStats(statistic);
         UUID[] uuidsArray = (UUID[]) StatsStorage.getStats(statistic).keySet().toArray();
@@ -220,7 +220,7 @@ To access sorted statistics hMap with players you must call it from StatsStorage
 
  To force player to join specified arena you can use our `ArenaManager` class.
 
-```java
+```js
   public void sendPlayerToArena(String arena, Player player){
     ArenaManager.joinAttempt(player, ArenaRegistry.getArena(arena));
   }
@@ -242,7 +242,7 @@ You should check is arena name exist otherwise it will throw NullPointerExceptio
 
  You can also use `ArenaManager` class to force player to quit arena.
 
-```java
+```js
   public void forcePlayerQuit(Player player){
     Arena arena = ArenaRegistry.getArena(player);
 

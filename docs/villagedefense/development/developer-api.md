@@ -6,10 +6,10 @@ sidebar_label: DeveloperApi
 ---
 description: Get the API and some examples
 
-Full java documentation: [https://jd.plajer.xyz/minecraft/villagedefense](https://jd.plajer.xyz/minecraft/villagedefense)
+Full js documentation: [https://jd.plajer.xyz/minecraft/villagedefense](https://jd.plajer.xyz/minecraft/villagedefense)
 
 :::warning
- Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
+ Contents may be not up to date! Please use js docs instead. Here you can only get some simple examples.
 :::
 
 ## Maven repository <a id="maven"></a>
@@ -50,7 +50,7 @@ The event is called when a player is trying to join an arena.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameJoin(VillageGameJoinAttemptEvent event){
         e.getPlayer().sendMessage("You have joined " + e.getArena().getID());
@@ -75,7 +75,7 @@ The event is called when the arena starts.
 
  **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStart(VillageGameStartEvent event){
         for(Player p : e.getArena().getPlayers()){
@@ -92,7 +92,7 @@ The event is called when the arena starts.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStart(VillageGameStartEvent event){
         for(Player p : e.getArena().getPlayers()){
@@ -109,7 +109,7 @@ The event is called when a player is trying to leave an arena.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameQuit(VillageGameLeaveAttemptEvent event){
         e.getPlayer().sendMessage("You have quitted" + e.getArena().getID());
@@ -126,7 +126,7 @@ The event is called when a game is stopped.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStop(VillageGameStopEvent event){
         for(Player p : e.getArena().getPlayers()){
@@ -143,7 +143,7 @@ The event is called when the player chose kit in game.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onKitChoose(VillagePlayerChooseKitEvent event){
         Kit kit = e.getKit();
@@ -172,7 +172,7 @@ The event is called when the wave is finished \(all zombies are killed\).
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onWaveEnd(VillageWaveEndEvent event){
         for(Player p : e.getArena().getPlayers()){
@@ -192,7 +192,7 @@ The event is called when the wave starts.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onWaveStart(VillageWaveStartEvent event){
         for(Player p : e.getArena().getPlayers()){
@@ -211,7 +211,7 @@ The event is called when arena game state changes.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onGameStateChange(VillageGameStateChangeEvent event){
         String state = e.getArenaState().getFormattedName();
@@ -231,7 +231,7 @@ The event is called when the player receives a new statistic.
 
 **Example:**
 
-```java
+```js
     @EventHandler
     public void onStatChange(VillagePlayerStatisticChangeEvent event){
         StatisticType stat = e.getStatisticType();
@@ -254,7 +254,7 @@ The event is called when player upgrades entity.
 
 Example:
 
-```java
+```js
   @EventHandler
   public void onEntityUpgrade(VillagePlayerEntityUpgradeEvent event) {
     event.getPlayer().sendMessage("You applied " + event.getAppliedUpgrade().getName() + " upgrade! You paid " + event.getAppliedUpgrade().getCost(e.getTier()) + " orbs!");
@@ -280,7 +280,7 @@ The event is called when the player picks up a power-up.
 
 **Example:**
 
-```java
+```js
   @EventHandler
   public void onPowerupPick(VillagePlayerPowerupPickupEvent event) {
     Powerup powerup = event.getPowerup();
@@ -302,7 +302,7 @@ You can easily get online players stats using Village Defense API - Stats Storag
 
 **Example:**
 
-```java
+```js
     public int getZombieKills(Player p){
         return StatsStorage.getUserStats(p, StatsStorage.StatisticType.KILLS);
     }
@@ -316,7 +316,7 @@ To access sorted statistics Map with players you must call it from StatsStorage 
 
 **Example:**
 
-```java
+```js
     public void printBestStats(StatsStorage.StatisticType statistic){
         Map<UUID, Integer> statsMap = StatsStorage.getStats(statistic);
         UUID[] uuidsArray = (UUID[]) StatsStorage.getStats(statistic).keySet().toArray();
@@ -353,7 +353,7 @@ Registering new kit is quite simple. We need to implement all methods from abstr
 
 **Example:**
 
-```java
+```js
         //This kit will be premium
         Kit supporter = new PremiumKit() {
             //We need to implement methods from abstract Kit class
@@ -395,7 +395,7 @@ Registering new kit is quite simple. We need to implement all methods from abstr
 
 To force player to join specified arena you can use our `ArenaManager` class.
 
-```java
+```js
   public void sendPlayerToArena(String arena, Player player){
     ArenaManager.joinAttempt(player, ArenaRegistry.getArena(arena));
   }
@@ -417,7 +417,7 @@ After that you can check for `#isCancelled()` if join attempt was cancelled or n
 
 You can also use `ArenaManager` class to force player to quit arena.
 
-```java
+```js
   public void forcePlayerQuit(Player player){
     Arena arena = ArenaRegistry.getArena(player);
 
