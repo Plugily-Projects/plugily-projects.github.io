@@ -12,6 +12,7 @@ module.exports = {
     sidebarCollapsible: true,
     hideableSidebar: true,
     navbar: {
+      hideOnScroll: true,
       title: 'Plugily Projects',
       logo: {
         alt: 'Plugily Projects Logo',
