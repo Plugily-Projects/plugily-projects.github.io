@@ -15,7 +15,7 @@ module.exports = {
       title: 'Plugily Projects',
       logo: {
         alt: 'Plugily Projects Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
