@@ -126,6 +126,17 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects. All rights reserved.`,
     },
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true,
+      "switchConfig": {
+        "darkIcon": "🌜",
+        "darkIconStyle": {},
+        "lightIcon": "🌞",
+        "lightIconStyle": {}
+      }
+    },
   },
   presets: [
     [
