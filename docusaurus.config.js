@@ -137,6 +137,14 @@ module.exports = {
         "lightIconStyle": {}
       }
     },
+    announcementBar: {
+      id: 'check_spigotmc', // Any value that will identify this message.
+      content:
+          '<a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/authors/tigerkatze.414545/">View our resources on SpigotMC (click)</a>',
+      backgroundColor: '#cebb9a', // Defaults to `#fff`.
+      textColor: '#666666', // Defaults to `#000`.
+      isCloseable: true, // Defaults to `true`.
+    },
   },
   presets: [
     [
