@@ -9,6 +9,8 @@ module.exports = {
   organizationName: 'Plugily-Projects', // Usually your GitHub org/user name.
   projectName: 'plugily-projects.github.io', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: true,
+    hideableSidebar: true,
     navbar: {
       title: 'Plugily Projects',
       logo: {
