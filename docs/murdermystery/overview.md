@@ -1,12 +1,11 @@
 ---
 id: overview
-title: Village Defense Wiki
+title: Murder Mystery Wiki
 sidebar_label: Overview
-slug: /villagedefense/
+slug: /murdermystery/
 ---
-
 ---
-Official Plugily Projects Wiki of the Village Defense plugin
+Official Plugily Projects Wiki of the plugin Murder Mystery
 
 ## Get started
 
@@ -14,6 +13,3 @@ Official Plugily Projects Wiki of the Village Defense plugin
 |------------------------------------------------|---------------------------------------------|--------------------------------------|------------------------------------------------|--------------------------------------|
 | ![](https://i.imgur.com/8FJE8tg.png)           | ![](https://i.imgur.com/ekmDyHw.png)        | ![](https://i.imgur.com/4SndPkW.png) | ![](https://i.imgur.com/RDZGbgs.png)           | ![](https://i.imgur.com/cBRPKFZ.png) |
 | Commands and permissions                       | How to create arena tutorial                | Frequently asked questions           | Some stuff for developers                      | Frequent problems and tips           |
-
-
-

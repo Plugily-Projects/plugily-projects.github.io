@@ -1,12 +1,11 @@
 ---
 id: overview
-title: Village Defense Wiki
+title: BuildBattle Wiki
 sidebar_label: Overview
-slug: /villagedefense/
+slug: /buildbattle/
 ---
-
 ---
-Official Plugily Projects Wiki of the Village Defense plugin
+Official Plugily Projects Wiki of the plugin Build Battle
 
 ## Get started
 

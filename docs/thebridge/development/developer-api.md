@@ -4,11 +4,11 @@ title: Developer API
 sidebar_label: DeveloperApi
 ---
 ---
-description: Get the API and some examples
+Get the API and some examples
 
-Full java documentation: [https://jd.plajer.xyz/minecraft/villagedefense](https://jd.plajer.xyz/minecraft/villagedefense)
+Full java documentation: [https://jd.plugily.xyz/apidocs/minecraft/thebridge](https://jd.plugily.xyz/apidocs/minecraft/thebridge/)
 
-:::warning
+:::caution
  **Danger!** Contents may be not up to date! Please use java docs instead. Here you can only get some simple examples.
 :::
 
@@ -35,7 +35,7 @@ Maven repository usually contains latest releases, if not, please check in few d
         <dependencies>
                  <dependency>
                         <groupId>plugily.projects</groupId>
-                        <artifactId>villagedefense</artifactId>
+                        <artifactId>thebridge</artifactId>
                         <version>{version}</version>
                         <scope>provided</scope>
                  </dependency>
@@ -44,7 +44,7 @@ Maven repository usually contains latest releases, if not, please check in few d
 
 ## Events
 
-### **VillageGameJoinAttemptEvent** \(**Cancellable**\)
+### **TBGameJoinAttemptEvent** \(**Cancellable**\)
 
 The event is called when a player is trying to join an arena.
 
@@ -52,7 +52,7 @@ The event is called when a player is trying to join an arena.
 
 ```java
     @EventHandler
-    public void onGameJoin(VillageGameJoinAttemptEvent event){
+    public void onGameJoin(TBGameJoinAttemptEvent event){
         e.getPlayer().sendMessage("You have joined " + e.getArena().getID());
         e.setCancelled(true);
         e.getPlayer().sendMessage("Or maybe not? :D");
@@ -65,11 +65,11 @@ The event is called when a player is trying to join an arena.
 >
 > **event\#isCancelled\(\)** - returns true if event is cancelled
 
-:::caution
+:::warning
  **Warn!** A message from language file is sent to the player when the attempt is cancelled \(see `In-Game.Join-Cancelled-Via-API` in language.yml\)
 :::
 
-### **VillageGameStartEvent**
+### **TBGameStartEvent**
 
 The event is called when the arena starts.
 
@@ -77,7 +77,7 @@ The event is called when the arena starts.
 
 ```java
     @EventHandler
-    public void onGameStart(VillageGameStartEvent event){
+    public void onGameStart(TBGameStartEvent event){
         for(Player p : e.getArena().getPlayers()){
             p.sendMessage("Game has started!");
         }
@@ -86,24 +86,7 @@ The event is called when the arena starts.
 
 > **event\#getArena\(\)** - returns event arena
 
-### **VillageGameStartEvent**
-
-The event is called when the arena starts.
-
-**Example:**
-
-```java
-    @EventHandler
-    public void onGameStart(VillageGameStartEvent event){
-        for(Player p : e.getArena().getPlayers()){
-            p.sendMessage("Game has started!");
-        }
-    }
-```
-
-> **event\#getArena\(\)** - returns event arena
-
-### **VillageGameLeaveAttemptEvent**
+### **TBGameLeaveAttemptEvent**
 
 The event is called when a player is trying to leave an arena.
 
@@ -111,7 +94,7 @@ The event is called when a player is trying to leave an arena.
 
 ```java
     @EventHandler
-    public void onGameQuit(VillageGameLeaveAttemptEvent event){
+    public void onGameQuit(TBGameLeaveAttemptEvent event){
         e.getPlayer().sendMessage("You have quitted" + e.getArena().getID());
     }
 ```
@@ -120,7 +103,7 @@ The event is called when a player is trying to leave an arena.
 >
 > **event\#getArena\(\)** - returns existing arena what player is attempting to leave
 
-### **VillageGameStopEvent**
+### **TBGameStopEvent**
 
 The event is called when a game is stopped.
 
@@ -128,7 +111,7 @@ The event is called when a game is stopped.
 
 ```java
     @EventHandler
-    public void onGameStop(VillageGameStopEvent event){
+    public void onGameStop(TBGameStopEvent event){
         for(Player p : e.getArena().getPlayers()){
             p.sendMessage("You've lost the game! Maybe play again?");
         }
@@ -137,7 +120,7 @@ The event is called when a game is stopped.
 
 > **event\#getArena\(\)** - returns existing arena that is stopped
 
-### **VillagePlayerChooseKitEvent** \(**Cancellable**\)
+### **TBPlayerChooseKitEvent** \(**Cancellable**\)
 
 The event is called when the player chose kit in game.
 
@@ -145,7 +128,7 @@ The event is called when the player chose kit in game.
 
 ```java
     @EventHandler
-    public void onKitChoose(VillagePlayerChooseKitEvent event){
+    public void onKitChoose(TBPlayerChooseKitEvent event){
         Kit kit = e.getKit();
         if(kit.getName().contains("knight")){
             e.getPlayer().sendMessage("Knight kits aren't for you mate! Use archer kit instead!");
@@ -162,50 +145,42 @@ The event is called when the player chose kit in game.
 >
 > **event\#isCancelled\(\)** - returns true if event is cancelled
 
-:::warning
+:::caution
  **Danger!** Cancelling the event doesn't really influence the in-game kit chooser, `#isCancelled()`should be used for external add-ons!
 :::
 
-### **VillageWaveEndEvent**
+### \*\*\*\*
 
-The event is called when the wave is finished \(all zombies are killed\).
+### **TBPlayerChooseBaseEvent** \(**Cancellable**\)
 
-**Example:**
-
-```java
-    @EventHandler
-    public void onWaveEnd(VillageWaveEndEvent event){
-        for(Player p : e.getArena().getPlayers()){
-            p.sendMessage("Wave has ended! You recived free diamond!");
-            p.getInventory().addItem(new ItemStack(Material.DIAMOND, 1);
-        }
-    }
-```
-
-> **event\#getArena\(\)** - returns event arena
->
-> **event\#getWaveNumber\(\)** - returns number of current wave
-
-### **VillageWaveStartEvent**
-
-The event is called when the wave starts.
+The event is called when the player chose base in game.
 
 **Example:**
 
 ```java
     @EventHandler
-    public void onWaveStart(VillageWaveStartEvent event){
-        for(Player p : e.getArena().getPlayers()){
-            p.sendMessage("Wave has started! Good luck.");
+    public void onKitChoose(TBPlayerChooseBaseEvent event){
+        Base base = e.getBase();
+        if(base.getSize == 2){
+            e.getPlayer().sendMessage("Haha no one can join this base");
+            e.setCancelled(true);
         }
     }
 ```
 
-> **event\#getArena\(\)** - returns event arena
+> **event\#getArena\(\)** - returns arena player is playing \(player is always in arena when this event is called\)
 >
-> **event\#getWaveNumber\(\)** - returns number of current wave
+> **event\#getPlayer\(\)** - returns event player
+>
+> **event\#getBase\(\)** - returns selected base
+>
+> **event\#isCancelled\(\)** - returns true if event is cancelled
 
-### **VillageGameStateChangeEvent**
+:::caution
+ **Danger!** Cancelling the event doesn't really influence the in-game base chooser, `#isCancelled()`should be used for external add-ons!
+:::
+
+### **TBGameStateChangeEvent**
 
 The event is called when arena game state changes.
 
@@ -213,7 +188,7 @@ The event is called when arena game state changes.
 
 ```java
     @EventHandler
-    public void onGameStateChange(VillageGameStateChangeEvent event){
+    public void onGameStateChange(TBGameStateChangeEvent event){
         String state = e.getArenaState().getFormattedName();
         for(Player p : e.getArena().getPlayers()){
             p.sendMessage("Arena state changed to " + state);
@@ -225,7 +200,7 @@ The event is called when arena game state changes.
 >
 > **event\#getArenaState\(\)** - returns current arena state
 
-### **VillagePlayerStatisticChangeEvent**
+### **TBPlayerStatisticChangeEvent**
 
 The event is called when the player receives a new statistic.
 
@@ -233,7 +208,7 @@ The event is called when the player receives a new statistic.
 
 ```java
     @EventHandler
-    public void onStatChange(VillagePlayerStatisticChangeEvent event){
+    public void onStatChange(TBPlayerStatisticChangeEvent event){
         StatisticType stat = e.getStatisticType();
         int statNumber = e.getNumber();
         e.getPlayer().sendMessage("Your statistic " + stat.getName() + " has changed to " + statNumber);
@@ -248,52 +223,6 @@ The event is called when the player receives a new statistic.
 >
 > **event\#getNumber\(\)** - returns current value of statistic
 
-### VillageEntityUpgradeEvent
-
-The event is called when player upgrades entity.
-
-Example:
-
-```java
-  @EventHandler
-  public void onEntityUpgrade(VillagePlayerEntityUpgradeEvent event) {
-    event.getPlayer().sendMessage("You applied " + event.getAppliedUpgrade().getName() + " upgrade! You paid " + event.getAppliedUpgrade().getCost(e.getTier()) + " orbs!");
-    if(event.getEntity().getType() == EntityType.WOLF) {
-      event.getPlayer().sendMessage("You applied this upgrade to wolf!");
-    } else {
-      event.getPlayer().sendMessage("You applied this upgrade to iron golem!");
-    }
-  }
-```
-
-> **event\#getEntity\(\)** - returns entity which was upgraded
->
-> **event\#getUpgrade\(\)** - returns upgrade that was applied
->
-> **event\#getPlayer\(\)** - returns player who upgraded entity
->
-> **event\#getArena\(\)** - returns arena where entity was upgraded
-
-### **VillagePowerupPickEvent**
-
-The event is called when the player picks up a power-up.
-
-**Example:**
-
-```java
-  @EventHandler
-  public void onPowerupPick(VillagePlayerPowerupPickupEvent event) {
-    Powerup powerup = event.getPowerup();
-    event.getPlayer().sendMessage("You picked up " + powerup.getName() + " with identifier " + powerup.getId());
-  }
-```
-
-> **event\#getPowerup\(\)** - returns powerup
->
-> **event\#getPlayer\(\)** - returns player involved in this event
->
-> **event\#getArena\(\)** - returns arena player is playing
-
 ## Stats storage <a id="stats-storage"></a>
 
 ### **Retrieving online players stats**
@@ -303,7 +232,7 @@ You can easily get online players stats using Village Defense API - Stats Storag
 **Example:**
 
 ```java
-    public int getZombieKills(Player p){
+    public int getKills(Player p){
         return StatsStorage.getUserStats(p, StatsStorage.StatisticType.KILLS);
     }
 ```
@@ -326,26 +255,29 @@ To access sorted statistics Map with players you must call it from StatsStorage 
     }
 ```
 
-:::warning
+:::caution
 **Danger!** Be aware of IndexOutOfBoundsException as the list might be not enough big!
 :::
 
 ### **Available statistic types**
 
-:::warning
+:::caution
 **Danger!** Orbs statistic is temporary and shouldn't be used for out game usages!
 :::
 
-| Statistic name \(enum\)     | Statistic identifier \(string\) \(for advanced things\) | Description                          |
-|-----------------------------|---------------------------------------------------------|--------------------------------------|
-| ORBS **\(non-persistent\)** | orbs                                                    | Local orbs of player which is ingame |
-| KILLS                       | kills                                                   | Total kills amount                   |
-| DEATHS                      | deaths                                                  | Total deaths amount                  |
-| GAMES\_PLAYED               | gamesplayed                                             | Total games played                   |
-| HIGHEST\_WAVE               | highestwave                                             | Highest wave the player reached      |
-| LEVEL                       | level                                                   | The current level a player got       |
-| XP                          | xp                                                      | The current xp a player got          |
-
+| Statistic name \(enum\)                        | Statistic identifier \(string\) \(for advanced things\) | Description                               |
+|------------------------------------------------|---------------------------------------------------------|-------------------------------------------|
+| KILLS                                          | kills                                                   | Total kills amount                        |
+| DEATHS                                         | deaths                                                  | Total deaths amount                       |
+| GAMES\_PLAYED                                  | gamesplayed                                             | Total games played                        |
+| LEVEL                                          | level                                                   | The current level a player got            |
+| XP                                             | xp                                                      | The current xp a player got               |
+| WINS                                           | wins                                                    | Get all wins a player got                 |
+| LOSES                                          | loses                                                   | Get all loses a player got                |
+| SCORED\_POINTS                                 | points                                                  | Get all scored points a player got        |
+| LOCAL\_KILLS **\(non-persistent\)**            | local\_kills                                            | Get kills a player got on a round         |
+| LOCAL\_DEATHS **\(non-persistent\)**           | local\_deaths                                           | Get deaths a player got on a round        |
+| LOCAL\__SCORED\__POINTS **\(non-persistent\)** | local\__scored_\_points                                 | Get scored points a player got on a round |
 
 ## Kit registry <a id="kit-registry"></a>
 
@@ -377,7 +309,7 @@ Registering new kit is quite simple. We need to implement all methods from abstr
                 return Material.GOLDEN_APPLE;
             }
 
-            //Items given every next wave
+            //Items given every respawn if needed
             @Override
             public void reStock(Player player) {
                 player.getInventory().addItem(new ItemStack(Material.GOLDEN_APPLE, 1));
@@ -407,7 +339,7 @@ To force player to join specified arena you can use our `ArenaManager` class.
   }
 ```
 
-:::caution
+:::warning
 **Warn!** You should check is arena name exist otherwise it will throw NullPointerException
 :::
 
@@ -425,7 +357,7 @@ You can also use `ArenaManager` class to force player to quit arena.
   }
 ```
 
-:::caution
+:::warning
 **Warn!** You should check is arena isn't null otherwise it will throw NullPointerException
 :::
 
