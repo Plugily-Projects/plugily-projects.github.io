@@ -72,6 +72,11 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          label: 'Discord',
+          href: 'https://discord.plugily.xyz',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -82,7 +87,7 @@ module.exports = {
           items: [
             {
               label: 'Feedbacky',
-              href: 'https://feedbacky.net',
+              href: 'feedback',
             },
             {
               label: 'Discord',
@@ -95,15 +100,31 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Other',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Cookies',
+              to: 'plugily/english/cookies',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Disclaimer',
+              to: 'plugily/english/disclaimer',
+            },
+            {
+              label: 'Privacy',
+              to: 'plugily/english/privacy',
+            },
+            {
+              label: 'Terms',
+              to: 'plugily/english/terms',
+            },
+            {
+              label: 'Datenschutz (German)',
+              to: 'plugily/german/datenschutz',
+            },
+            {
+              label: 'Impressum (German)',
+              to: 'plugily/german/impressum',
             },
           ],
         },
