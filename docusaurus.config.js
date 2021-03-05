@@ -43,13 +43,18 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://translate.plugily.xyz',
+          to: '/translate/',
           label: 'Translate',
           position: 'left',
         },
         {
-          href: 'https://beta.plugily.xyz',
+          to: '/beta/',
           label: 'Beta',
+          position: 'left',
+        },
+        {
+          to: '/tutorial/',
+          label: 'Tutorial',
           position: 'left',
         },
         {
