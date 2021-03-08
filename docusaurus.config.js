@@ -1,4 +1,9 @@
+const path = require('path');
 module.exports = {
+  plugins: [
+      path.resolve(__dirname, 'plugin-arc'),
+    path.resolve(__dirname, 'plugin-cookie')
+  ],
   title: 'Plugily Projects Wiki',
   tagline: 'The fastest way to find solutions',
   url: 'https://Plugily-Projects.github.io',
