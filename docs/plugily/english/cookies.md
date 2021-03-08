@@ -48,12 +48,8 @@ These cookies are used to make advertising messages more relevant to you. They p
 These are cookies that have not yet been categorized. We are in the process of classifying these cookies with the help of their providers.
 
 
-<!-- CookiePro Cookies Settings button start -->
-<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
-<!-- CookiePro Cookies Settings button end -->
-<!-- CookiePro Cookies List start -->
+<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
 <div id="ot-sdk-cookie-policy"></div>
-<!-- CookiePro Cookies List end -->
 
 ## What about other tracking technologies, like web beacons?
 

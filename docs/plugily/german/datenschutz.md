@@ -121,12 +121,8 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
     **Cookie-Einstellungen bearbeiten bzw. diesen widersprechen:**
 
-    <!-- CookiePro Cookies Settings button start -->
-    <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
-    <!-- CookiePro Cookies Settings button end -->
-    <!-- CookiePro Cookies List start -->
+    <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
     <div id="ot-sdk-cookie-policy"></div>
-    <!-- CookiePro Cookies List end -->
 
 ## **Cookie Consent Lösungen**
 
