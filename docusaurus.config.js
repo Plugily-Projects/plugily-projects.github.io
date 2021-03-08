@@ -132,6 +132,13 @@ module.exports = {
               label: 'Impressum (German)',
               to: 'plugily/german/impressum',
             },
+            {
+              html: `
+                <!-- CookiePro Cookies Settings button start -->
+                <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+                <!-- CookiePro Cookies Settings button end -->
+              `,
+            },
           ],
         },
         {

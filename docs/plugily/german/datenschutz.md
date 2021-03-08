@@ -121,23 +121,28 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
     **Cookie-Einstellungen bearbeiten bzw. diesen widersprechen:**
 
-    <div>code for optin cookie</div>
+    <!-- CookiePro Cookies Settings button start -->
+    <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+    <!-- CookiePro Cookies Settings button end -->
+    <!-- CookiePro Cookies List start -->
+    <div id="ot-sdk-cookie-policy"></div>
+    <!-- CookiePro Cookies List end -->
 
 ## **Cookie Consent Lösungen**
 
 ### **Consent Manager Provider**
 
-1.  Wir haben auf unserer Website den Consent Manager Provider (CMP) (Diensteanbieter: Jaohawi AB, Håltegelvägen 1b, 72348 Västerås, Schweden, Website: https://www.consentmanager.de) als Zustimmungsverwaltungsdienst integriert.
+1.  Wir haben auf unserer Website den CookiePro by OneTrust (CookiePro) (Diensteanbieter: London, England (Co-Headquarters), 82 St John St, Farringdon, London, EC 1M 4JN, Website: https://www.cookiepro.com/) als Zustimmungsverwaltungsdienst integriert.
 
-2.  **Datenkategorien und Beschreibung der Datenverarbeitung:** Cookies, Datum und Uhrzeit des Besuchs, Geräteinformation, Browser-Informationen, Anonymisierte IP-Adresse, Opt-in und Opt-out-Daten. Durch diesen Dienst können wir Ihre Einwilligung zur Speicherung von Cookies einholen und diese auch dokumentieren. Zudem wird dazu ein Cookie in Ihrem Browser gespeichert, um Ihnen die erteilte Einwilligung bzw. deren Widerruf zuordnen zu können. Nachfolgend finden Sie weitere Informationen in der Datenschutzerklärung des Datenverarbeiters CMP: [https://www.consentmanager.de/privacy.php](https://www.consentmanager.de/privacy.php).
+2.  **Datenkategorien und Beschreibung der Datenverarbeitung:** Cookies, Datum und Uhrzeit des Besuchs, Geräteinformation, Browser-Informationen, Anonymisierte IP-Adresse, Opt-in und Opt-out-Daten. Durch diesen Dienst können wir Ihre Einwilligung zur Speicherung von Cookies einholen und diese auch dokumentieren. Zudem wird dazu ein Cookie in Ihrem Browser gespeichert, um Ihnen die erteilte Einwilligung bzw. deren Widerruf zuordnen zu können. Nachfolgend finden Sie weitere Informationen in der Datenschutzerklärung des Datenverarbeiters CookiePro: [https://www.onetrust.com/privacy/](https://www.onetrust.com/privacy/).
 
 3.  **Zwecke der Datenverarbeitung:** Einhaltung gesetzlicher Verpflichtungen, Zustimmungsspeicher.
 
 4.  **Rechtsgrundlagen:** Die Rechtsgrundlage für die Verarbeitung der personenbezogenen Daten ist unser in den obigen Zwecken liegendes berechtigtes Interesse gemäß Art. 6 Abs. 1 S. 1 lit. f) DS-GVO sowie die Erfüllung gesetzlicher Pflichten nach Art. 6 Abs. 1 S. 1 lit. c) DS-GVO.
 
-5.  **Speicherdauer:** Speicherung der Daten bis Sie das CMP-Cookie in Ihrem Browser selbst löschen oder der Zweck für die Datenspeicherung entfällt. Der Widerrufsbeleg einer vormals erteilten Einwilligung wird für die Dauer von drei Jahren aufbewahrt. Die Aufbewahrung gründet zum einen in unserer Rechenschaftspflicht gemäß Art. 5 Abs. 2 DSGVO.
+5.  **Speicherdauer:** Speicherung der Daten bis Sie das CookiePro-Cookie in Ihrem Browser selbst löschen oder der Zweck für die Datenspeicherung entfällt. Der Widerrufsbeleg einer vormals erteilten Einwilligung wird für die Dauer von drei Jahren aufbewahrt. Die Aufbewahrung gründet zum einen in unserer Rechenschaftspflicht gemäß Art. 5 Abs. 2 DSGVO.
 
-6.  **Datenübermittlung/Empfängerkategorie:** CMP Anbieter in Europa. Wir haben deshalb einen Vertrag zur Auftragsverarbeitung nach Art. 28 DS-GVO mit dem Datenverarbeiter abgeschlossen.
+6.  **Datenübermittlung/Empfängerkategorie:** CookiePro Anbieter in Europa und Außerhalb. Wir haben deshalb einen Vertrag zur Auftragsverarbeitung nach Art. 28 DS-GVO mit dem Datenverarbeiter abgeschlossen.
 
 
 ## **Google ReCAPTCHA**
@@ -154,7 +159,7 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
 6.  **Speicherdauer:** bis zur Löschung der Cookies durch Sie als Nutzer.
 
-7.  Weitere Informationen finden Sie zu Google ReCAPTCHA unter [https://www.google.com/recaptcha/](https://www.google.com/recaptcha/) sowie in der Datenschutzerklärung von Google unter: [https://policies.google.com/privacy](https://policies.google.com/privacy).
+7.  Weitere Informationen finden Sie zu Google ReCAPTCHA unter [https://www.google.com/recaptcha/](https://www.google.com/recaptcha/) sowie in der Datenschutzerklärung von Google unter: [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
 ## **Präsenz in sozialen Medien**
 
@@ -243,4 +248,4 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
 Um alle personenbezogen Daten, die an uns übermittelt werden, zu schützen und um sicherzustellen, dass die Datenschutzvorschriften von uns, aber auch unseren externen Dienstleistern eingehalten werden, haben wir geeignete technische und organisatorische Sicherheitsmaßnahmen getroffen. Deshalb werden unter anderem alle Daten zwischen Ihrem Browser und unserem Server über eine sichere SSL-Verbindung verschlüsselt übertragen.
 
-**Stand: 28.02.2021**
+**Stand: 08.03.2021**

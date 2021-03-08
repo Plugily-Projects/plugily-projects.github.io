@@ -3,7 +3,7 @@ id: privacy
 title: PRIVACY NOTICE
 ---
 
-Last updated March 02, 2021
+Last updated March 08, 2021
 
 
 

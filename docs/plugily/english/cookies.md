@@ -48,6 +48,13 @@ These cookies are used to make advertising messages more relevant to you. They p
 These are cookies that have not yet been categorized. We are in the process of classifying these cookies with the help of their providers.
 
 
+<!-- CookiePro Cookies Settings button start -->
+<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+<!-- CookiePro Cookies Settings button end -->
+<!-- CookiePro Cookies List start -->
+<div id="ot-sdk-cookie-policy"></div>
+<!-- CookiePro Cookies List end -->
+
 ## What about other tracking technologies, like web beacons?
 
 Cookies are not the only way to recognize or track visitors to a website. We may use other, similar technologies from time to time, like web beacons (sometimes called "tracking pixels" or "clear gifs"). These are tiny graphics files that contain a unique identifier that enable us to recognize when someone has visited our Websites or opened an e-mail including them. This allows us, for example, to monitor the traffic patterns of users from one page within a website to another, to deliver or communicate with cookies, to understand whether you have come to the website from an online advertisement displayed on a third-party website, to improve site performance, and to measure the success of e-mail marketing campaigns. In many instances, these technologies are reliant on cookies to function properly, and so declining cookies will impair their functioning.
