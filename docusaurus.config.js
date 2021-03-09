@@ -93,7 +93,7 @@ module.exports = {
           items: [
             {
               label: 'Feedbacky',
-              href: 'feedback',
+              href: 'plugily/feedback',
             },
             {
               label: 'Discord',
