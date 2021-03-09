@@ -1,7 +1,7 @@
 ---
 id: feedback
 title: Feedbacky
-slug: /feedback/
+slug: /plugily/feedback/
 ---
 
 ## Links

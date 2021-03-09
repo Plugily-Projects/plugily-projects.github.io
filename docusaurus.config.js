@@ -44,22 +44,22 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          to: '/translate/',
+          to: 'plugily/translate/',
           label: 'Translate',
           position: 'left',
         },
         {
-          to: '/beta/',
+          to: 'plugily/beta/',
           label: 'Beta',
           position: 'left',
         },
         {
-          to: '/tutorial/',
+          to: 'plugily/tutorial/',
           label: 'Tutorial',
           position: 'left',
         },
         {
-          to: '/feedback/',
+          to: 'plugily/feedback/',
           label: 'Feedback(y)',
           position: 'left',
         },
