@@ -1,7 +1,6 @@
 ---
 id: beta
 title: Beta program
-slug: /beta/
 ---
 
 ## Why should I join our beta program?  

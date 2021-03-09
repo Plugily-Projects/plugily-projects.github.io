@@ -1,7 +1,6 @@
 ---
 id: tutorial
 title: Video Tutorials
-slug: /tutorial/
 ---
 
 ## Watch one of our tutorial video

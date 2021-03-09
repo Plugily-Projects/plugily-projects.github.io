@@ -1,7 +1,6 @@
 ---
 id: translate
 title: Translation program
-slug: /translate/
 ---
 
 ## Join the translation program according to your project
