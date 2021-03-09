@@ -7,23 +7,83 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #cebb9a;
-  --ifm-color-primary-dark: #c2ab82;
-  --ifm-color-primary-darker: #bca376;
-  --ifm-color-primary-darkest: #aa8a52;
-  --ifm-color-primary-light: #dacbb2;
-  --ifm-color-primary-lighter: #e0d3be;
-  --ifm-color-primary-lightest: #f1ece3;
-  --ifm-code-font-size: 95%;
+    --ifm-color-primary: #cebb9a;
+    --ifm-color-primary-dark: #c2ab82;
+    --ifm-color-primary-darker: #bca376;
+    --ifm-color-primary-darkest: #aa8a52;
+    --ifm-color-primary-light: #dacbb2;
+    --ifm-color-primary-lighter: #e0d3be;
+    --ifm-color-primary-lightest: #f1ece3;
+    --ifm-code-font-size: 95%;
 
-  --ifm-color-success: #75de99;
-  --ifm-color-danger: #ea5353;
-  --ifm-color-warning: #ffca45;
+    --ifm-color-success: #75de99;
+    --ifm-color-danger: #ea5353;
+    --ifm-color-warning: #ffca45;
+    --discord_logo_url: url(/img/Discord-Logo-Black.svg);
+    --github_logo_url: url(/img/github_logo.svg);
+    --patreon_logo_url: url(/img/Patreon-FieryCoral.png);
+    --donate_logo_url: url(/img/donation_dark.png);
+}
+
+html[data-theme='dark'] {
+    --discord_logo_url: url(/img/Discord-Logo-White.svg);
+    --github_logo_url: url(/img/github_logo_white.svg);
+    --patreon_logo_url: url(/img/Patreon-White.png);
+    --donate_logo_url: url(/img/donation.png);
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
 }
+
+
+
+
+.navbar__item.navbar__link[href*='github'],
+.navbar__item.navbar__link[href*='patreon'],
+.navbar__item.navbar__link[href*='donate'],
+.navbar__item.navbar__link[href*='discord'] {
+    font-size: 0;
+    padding: 4px;
+    margin: 0 4px;
+}
+
+.navbar__item.navbar__link[href*='discord']:before {
+    background-image: var(--discord_logo_url);
+    background-size: cover;
+    content: '';
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.navbar__item.navbar__link[href*='github']:before {
+    background-image: var(--github_logo_url);
+    background-size: cover;
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.navbar__item.navbar__link[href*='patreon']:before {
+    background-image: var(--patreon_logo_url);
+    background-size: cover;
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.navbar__item.navbar__link[href*='donate']:before {
+    background-image: var(--donate_logo_url);
+    background-size: cover;
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
