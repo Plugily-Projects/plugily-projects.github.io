@@ -1,3 +1,7 @@
+# Plugily Projects Page
+
+This repository represents https://wiki.plugily.xyz and https://plugily.xyz
+
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
