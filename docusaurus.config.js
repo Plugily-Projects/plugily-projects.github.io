@@ -10,6 +10,20 @@ module.exports = {
   organizationName: 'Plugily-Projects', // Usually your GitHub org/user name.
   projectName: 'plugily-projects.github.io', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '924dcf6d3f3c84ab4e35f01a2159accc',
+      indexName: 'plugily',
+
+      // Optional: see doc section bellow
+      contextualSearch: false,
+      // Optional: Algolia search parameters
+      //inputSelector: '### REPLACE ME ####',
+      debug: false,
+      searchParameters: {
+        'facetFilters': ["type:content"]
+      },
+      //... other Algolia params
+    },
     sidebarCollapsible: true,
     hideableSidebar: true,
     navbar: {
