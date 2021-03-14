@@ -57,3 +57,28 @@ All arenas on `waiting for players` stage: It will send players to a random aren
 
 One (or more) arenas are on `starting` stage: It will send players to the arena with the most players
 
+## How can I enable my old Scoreboard after leaving the game?
+
+:::important
+You have to enable rewards in your config.yml ( `Rewards-Enabled: true` )
+:::
+
+Please edit the following section in your rewards.yml file:
+
+    #Helpful for servers that are using more than one scoreboard!
+    scoreboard_remove:
+    - commands to execute
+
+With the type `scoreboard_remove` you execute commands after removing our scoreboard.
+
+There you can add for example the following command:
+* `- p:sb on` to execute the command /sb on from the player
+* or `- sb on %PLAYER%` to execute the command /sb on %PLAYER% from the console
+
+Be sure to use commands that your plugin supports!
+
+[Learn more about the Rewards.yml here](plugin-files-explained.md)
+
+:::note
+If your scoreboard plugin doesn't support a command to activate the scoreboard please contact the dev of the plugin to add this command!
+:::

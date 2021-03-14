@@ -36,6 +36,14 @@ Here you can set up MySQL plugin configuration. You need to enable MySQL first i
 
 * [Latest mysql.yml](https://raw.githubusercontent.com/Plugily-Projects/TheBridge/master/src/main/resources/mysql.yml)
 
+### rewards.yml
+
+Here you can set up rewards that your players can get after specific triggers.
+Commands are executed by default BY CONSOLE, use "p:" to preform command by player.
+You can also use chance to execute command adding "chance(NUMBER):" (ex chance(10):) at the beginning of command.
+
+* [Latest rewards.yml](https://raw.githubusercontent.com/Plugily-Projects/TheBridge/master/src/main/resources/rewards.yml)
+
 ## Additional content
 
 ### Language and locales
