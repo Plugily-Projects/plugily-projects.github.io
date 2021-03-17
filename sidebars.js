@@ -93,6 +93,7 @@ module.exports = {
             },
             'buildbattle/support/files',
             'buildbattle/support/faq',
+            'buildbattle/support/servertips',
           ],
           Addon: [
             'buildbattle/addon/overview',
@@ -144,6 +145,7 @@ module.exports = {
             },
             'murdermystery/support/files',
             'murdermystery/support/faq',
+            'murdermystery/support/servertips',
           ],
           Addon: [
             'murdermystery/addon/overview',
