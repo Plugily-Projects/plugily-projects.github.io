@@ -17,8 +17,8 @@ Overview about all commands and permissions
 
 | Command                   | Permission                                                | Description                                                 |
 |---------------------------|-----------------------------------------------------------|-------------------------------------------------------------|
-| /tb join [arena]          | thebridge.join.%arena% thebridge.join.* (all arenas)      | Joins specified arena                                       |
-| /tb randomjoin            | Requires permission thebridge.join.* to access all arenas | Joins random not started arena                              |
+| /tb join [arena/maxplayers] [basesize]         | thebridge.join.%arena% thebridge.join.* (all arenas)      | Joins specified arena - `maxplayers` join arena with most players                                     |
+| /tb randomjoin [basesize]           | Requires permission thebridge.join.* to access all arenas | Joins random not started arena                              |
 | /tb arenas                | thebridge.arenas                                          | Overview over all arenas in one GUI. Select one to join     |
 | /tb stats (online player) |                                                           | Shows your stats                                            |
 | /tb leave                 |                                                           | Quits current game. You can disable game quit in config.yml |

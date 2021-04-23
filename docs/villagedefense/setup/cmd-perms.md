@@ -16,7 +16,7 @@ Overview about all commands and permissions
 
 | Command                   | Permission                                                                      | Description                                                 |
 |---------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------|
-| /vd join [arena]          | villagedefense.join.%arena% villagedefense.join.* (all arenas) | Joins specified arena                                       |
+| /vd join [arena/maxplayers]          | villagedefense.join.%arena% villagedefense.join.* (all arenas) | Joins specified arena - `maxplayers` join arena with most players                                      |
 | /vd randomjoin            | Requires permission villagedefense.join.* to access all arenas                  | Joins random not started arena                              |
 | /vd arenas                | villagedefense.arenas                                                           | Overview over all arenas in one GUI. Select one to join     |
 | /vd stats (online player) |                                                                                 | Shows your stats                                            |

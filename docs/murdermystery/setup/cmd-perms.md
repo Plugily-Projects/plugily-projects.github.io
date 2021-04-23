@@ -14,12 +14,12 @@ Overview about all commands and permissions
 
 | Command                     | Permission                                                          | Description                                                 |
 |-----------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|
-| /mm join \[arena\]          | `murdermystery.join.%arena%` `murdermystery.join.*`\(all arenas\)   | Joins specified arena                                       |
+| /mm join [arena/maxplayers]          | `murdermystery.join.%arena%` `murdermystery.join.*`\(all arenas\)   | Joins specified arena - `maxplayers` join arena with most players                                      |
 | /mm randomjoin              | **Requires permission `murdermystery.join.*` to access all arenas** | Joins random arena                                          |
 | /mm arenas                  | `murdermystery.arenas`                                              | Overview over all arenas in one GUI. Select one to join     |
-| /mm stats \(online player\) |                                                                     | Shows your stats or \(online player\) stats                 |
+| /mm stats (online player) |                                                                     | Shows your stats or \(online player\) stats                 |
 | /mm leave                   |                                                                     | Quits current game. You can disable game quit in config.yml |
-| /mm top \[statistic\]       |                                                                     | Shows TOP 10 players of specified statistic                 |
+| /mm top [statistic]       |                                                                     | Shows TOP 10 players of specified statistic                 |
 
 
 ## Admin
