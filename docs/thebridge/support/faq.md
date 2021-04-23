@@ -55,7 +55,7 @@ You can also shift-click the item on the menu to dismiss the spawn protection wa
 
 All arenas on `waiting for players` stage: It will send players to a random arena
 
-One (or more) arenas are on `starting` stage: It will send players to the arena with the most players
+One (or more) arenas are on `starting` stage: It will send players to one random arena that is on starting stage
 
 ## How can I enable my old Scoreboard after leaving the game?
 
