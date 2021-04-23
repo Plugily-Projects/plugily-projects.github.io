@@ -19,6 +19,7 @@ These are the **PlaceholderAPI** \(PAPI\) placeholders for BuildBattle. They are
 | %buildbattle\_loses%           | Shows your total loss count                     |
 | %buildbattle\_highest\_win%    | Shows your                                      |
 | %buildbattle\_particles\_used% | Shows your total used particles count           |
+| %buildbattle\_arena\_players\_online% | Shows the player amount of all arenas together                                           |
 
 
 ## Arena-related placeholders

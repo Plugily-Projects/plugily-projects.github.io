@@ -18,6 +18,7 @@ These are the **PlaceholderAPI** \(PAPI\) placeholders for MurderMystery. They a
 | %murdermystery\_wins%           | Shows your total win count                                                                       |
 | %murdermystery\_loses%          | Shows your total loss count                                                                      |
 | %murdermystery\_highest\_score% | Shows your highest score point                                                                   |
+| %murdermystery\_arena\_players\_online% | Shows the player amount of all arenas together                                           |
 
 
 ## Arena-related placeholders

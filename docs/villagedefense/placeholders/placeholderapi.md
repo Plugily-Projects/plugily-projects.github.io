@@ -19,6 +19,7 @@ These are the **PlaceholderAPI** \(PAPI\) placeholders for VillageDefense. They 
 | %villagedefense\_level%                | Shows your current level                 |
 | %villagedefense\_exp%                  | Shows your exp amount \(decimal number\) |
 | %villagedefense\_exp\_to\_next\_level% | Shows amount of exp need to level up     |
+| %villagedefense\_arena\_players\_online% | Shows the player amount of all arenas together                                           |
 
 
 ## Arena-related placeholders
