@@ -22,6 +22,7 @@ These are the **PlaceholderAPI** \(PAPI\) placeholders for TheBridge. They are i
 | %thebridge\_exp%                  | Shows your exp amount \(decimal number\) |
 | %thebridge\_exp\_to\_next\_level% | Shows amount of exp need to level up     |
 | %thebridge\_arena\_players\_online% | Shows the player amount of all arenas together                                           |
+| %thebridge\_base\_color%                  | Returns the base color of the player as color |
 
 
 ## Arena-related placeholders
