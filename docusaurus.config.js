@@ -106,16 +106,11 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Feedbacky',
-              href: 'plugily/feedback',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.plugily.xyz',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Plugily-Projects',
+              html: `
+               <a href="https://discord.plugily.xyz" target="_blank" rel="noreferrer noopener">
+                  <img src="https://discordapp.com/api/guilds/345628548716822530/widget.png?style=banner3"/>
+               </a>
+               `
             },
           ],
         },
