@@ -43,11 +43,12 @@ Overview about all commands and permissions
 | /tba stop                           | `thebridge.admin.stopgame`                                                                                | Stops game you're playing                                                       | Player           |
 | /tba forcestart                     | `thebridge.admin.forcestart`                                                                              | Force starts game you're in                                                     | Player           |
 | /tba spychat                        | `thebridge.admin.spychat`                                                                                 | Toggles all arenas chat visibility \(multi-arena feature only\)                 | Player           |
-| /tbaa reload                        | `thebridge.admin.reload`                                                                                  | Reloads all game instances **they will be stopped.  Usage highly discouraged!** | Player/Console   |
+| /tba reload                        | `thebridge.admin.reload`                                                                                  | Reloads all game instances **they will be stopped.  Usage highly discouraged!** | Player/Console   |
 | /tba delete \[arena\]               | `thebridge.admin.delete`                                                                                  | Deletes specified arena                                                         | Player           |
 | /tba tp \[arena\] \[location type\] | `thebridge.admin.teleport`                                                                                | Teleports to specified arena location **Location types:** START, END, LOBBY     | Player           |
 | /tba addlevel \[number\] \(player\) | `thebridge.admin.addlevel`                                                                                | Add levels to player                                                            | Player/Console   |
 | /tba setlevel \[number\] \(player\) | `thebridge.admin.setlevel`                                                                                | Set levels of player                                                            | Player/Console   |
+| /tba locwand | `thebridge.admin.locwand`                                                                                | Get the location wand                                                            | Player   |
 
 ## Basic permissions
 
