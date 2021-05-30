@@ -13,14 +13,16 @@ Overview about all commands and permissions
 
 ## Player
 
-| Command                          | Permission                                                        | Description                                                 |
-|----------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------|
-| /bb join [arena/maxplayers] [solo/team/gtb]    | `buildbattle.join.%arena% buildbattle.join.*` \(all arenas\)      | Joins specified arena - `maxplayers` join arena with most players         |
-| /bb randomjoin [solo/team/gtb] | **Requires permission `buildbattle.join.*` to access all arenas** | Joins random arena of specified game mode                   |
-| /bb arenas                       | `buildbattle.arenas`                                              | Overview over all arenas in one GUI. Select one to join     |
-| /bb stats (online player)      |                                                                   | Shows your stats                                            |
-| /bb leave                        |                                                                   | Quits current game. You can disable game quit in config.yml |
-| /bb top [statistic]            |                                                                   | Shows TOP 10 players of specified statistic                 |
+| Command                                     | Permission                                                        | Description                                                            |
+|---------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------------|
+| /bb join [arena/maxplayers] [solo/team/gtb] | `buildbattle.join.%arena% buildbattle.join.*` \(all arenas\)      | Joins specified arena - `maxplayers` join arena with most players      |
+| /bb randomjoin [solo/team/gtb]              | **Requires permission `buildbattle.join.*` to access all arenas** | Joins random arena of specified game mode                              |
+| /bb arenas                                  | `buildbattle.arenas`                                              | Overview over all arenas in one GUI. Select one to join                |
+| /bb stats (online player)                   |                                                                   | Shows your stats                                                       |
+| /bb leave                                   |                                                                   | Quits current game. You can disable game quit in config.yml            |
+| /bb top [statistic]                         |                                                                   | Shows TOP 10 players of specified statistic                            |
+| /bb guess [theme]                           |                                                                   | Only works on GTB mode - Can be useful for bungee handled chat servers |
+
 
 ## Admin
 
