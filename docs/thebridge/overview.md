@@ -7,6 +7,8 @@ slug: /thebridge/
 ---
 Official Plugily Projects Wiki of the TheBridge plugin
 
+## Get started
+
 | [Commands and Permissions](setup/cmd-perms.md) | [Simple arena setup](setup/simple-setup.md) | [Free Maps](setup/free-maps.md)      | [Developers API](development/developer-api.md) | [FAQ](support/faq.md)                |
 |------------------------------------------------|---------------------------------------------|--------------------------------------|------------------------------------------------|--------------------------------------|
 | ![](https://i.imgur.com/8FJE8tg.png)           | ![](https://i.imgur.com/ekmDyHw.png)        | ![](https://i.imgur.com/4SndPkW.png) | ![](https://i.imgur.com/RDZGbgs.png)           | ![](https://i.imgur.com/cBRPKFZ.png) |
