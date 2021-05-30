@@ -78,7 +78,8 @@ So always remember to edit only in the `language.yml`.
 #    pt_br - Português Brasileiro   lt - Lietuvių kalba
 #    it - Lingua italiana           ru - Русский язык
 #    kr - Korean                    nl - Dutch
-#    zh - Chinese (Traditional)
+#    zh - Chinese (Traditional)     tr - Türk dili
+#    th - Thai
 ```
 
 :::tip
