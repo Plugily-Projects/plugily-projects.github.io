@@ -115,6 +115,6 @@ Basically the party plugin on spigot works as a bridge beetween bungee - (spigot
 
 **3. Profit**
 
-:::caution
+:::note
 When using **EssentialsX** make sure to set respawn-listener-priority to normal or low!
 :::
