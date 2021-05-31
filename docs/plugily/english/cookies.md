@@ -3,11 +3,7 @@ id: cookies
 title: COOKIE POLICY
 ---
 
-Last updated March 02, 2021
-
-
-
-This Cookie Policy explains how Plugily Projects ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at https://plugily.xyz, ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+This Cookie Policy explains how Plugily Projects ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at https://plugily.xyz, and subdomains ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
 In some cases we may use cookies to collect personal information, or that becomes personal information if we combine it with other information.
 
@@ -32,6 +28,7 @@ The Cookie Consent Manager can be found in the notification banner and on our we
 In addition, most advertising networks offer you a way to opt out of targeted advertising. If you would like to find out more information, please visit http://www.aboutads.info/choices/ or http://www.youronlinechoices.com.
 
 The specific types of first and third party cookies served through our Websites and the purposes they perform are described in the table below (please note that the specific cookies served may vary depending on the specific Online Properties you visit):
+
 
 ### Essential website cookies:
 
@@ -71,7 +68,7 @@ Third parties may serve cookies on your computer or mobile device to serve adver
 
 We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.
 
-The date at the top of this Cookie Policy indicates when it was last updated.
+The date at the bottom of this Cookie Policy indicates when it was last updated.
 
 ## Where can I get further information?
 
