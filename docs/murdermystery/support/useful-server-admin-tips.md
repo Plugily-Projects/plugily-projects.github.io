@@ -27,7 +27,7 @@ We are not responsibility for other plugins. Please contact the authors of the p
 **(3.)** Only if you use PAF for Bungee, you will need to install the [PAF Addon](https://www.spigotmc.org/resources/39751/) and follow the instruction of it.
 
 :::note
-Basically the party plugin on spigot works as a brige beetween bungee - (spigot) - our minigame
+Basically the party plugin on spigot works as a bridge beetween bungee - (spigot) - our minigame
 :::
 
 **3. Profit**
@@ -50,3 +50,7 @@ Basically the party plugin on spigot works as a brige beetween bungee - (spigot)
 **2.** Set it up like the plugin thread says it
 
 **3. Profit**
+
+:::note
+When using **EssentialsX** make sure to set respawn-listener-priority to normal or low!
+:::
