@@ -9,6 +9,7 @@ sidebar_label: Overview
 - Custom Achievements module
 - Custom ranks module  
 - Replay Ability
+- Extended shops
 
 ## How to get it?
 :::note

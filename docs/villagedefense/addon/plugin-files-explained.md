@@ -129,6 +129,26 @@ Here we save all the kits you create. It is recommended to use the In-Game confi
       Position: 13
 ```
 
+## extended_shops.yml
+:::note
+Here we save all the shops you create. It is recommended to use the In-Game configurator, but you can also edit the files.
+:::
+
+```yml
+# Should extended game shop be enabled?
+# Extended shop will override all other arena shops, extended shop is a global shop.
+Enabled: true
+Shop-Name: '&e&lSelect category'
+Categories:
+  Test1:
+    Material: GRASS
+    Name: '&a&lItems of Test1'
+    Lore: '&7Click to open Test1'
+    Arena: quarry
+    Referral: quarry,24.0,81.0,11.0
+```
+
+
 ## achievements.yml
 :::note
 Here you can add as many achievements as you want. We recommend the In-Game creator.

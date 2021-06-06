@@ -25,7 +25,7 @@ You can use `villagedefense.customkits.*` permission to give all commands permis
 | /vda customkits mobgen \[iron\_golem/wolf\] \[amount of mobs\]       | villagedefense.customkits.command.mobgen     | Create custom mobs for kits **\(they will be spawned at the start/per wave\)**                                |
 | /vda customkits commandgen \[player/console\] \[command\]            | villagedefense.customkits.command.commandgen | Create command for kits **\(%player% placeholder supported\)**                                                |
 
-### Commands and Permissions - achievements module <a id="commands-and-permissions-achievements-module"></a>
+### Commands and Permissions - achievements (VDE 4.5.6+)
 
 | Command                                                     | Permission                                     | Description                                                                   |
 |-------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------------------------------|
@@ -35,3 +35,10 @@ You can use `villagedefense.customkits.*` permission to give all commands permis
 | /vda achievements delete \[name\]                           | villagedefense.achievements.command.delete     | Deletes existing achievement                                                  |
 | /vda achievements edit \[name\]                             | villagedefense.achievements.command.edit       | Edits existing achievement                                                    |
 | /vda achievements commandgen \[player/console\] \[command\] | villagedefense.achievements.command.commandgen | Create reward command for achievements **\(%player% placeholder supported\)** |
+
+### Commands and Permissions - extended shops
+| Commands                                     | Permission                                  | Description                                    |
+|----------------------------------------------|---------------------------------------------|------------------------------------------------|
+| /vda extendedshops edit <category> <arena>   | villagedefense.extendedshops.command.edit   | Opens GUI editor to edit target extended shop. |
+| /vda extendedshops create <category> <arena> | villagedefense.extendedshops.create.edit    | Creates new extended shop for the category     |
+| /vda extendedshops delete <category> <arena> | villagedefense.extendedshops.command.delete | Deletes extended shop of category              |
