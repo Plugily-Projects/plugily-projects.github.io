@@ -16,6 +16,8 @@ Every map contains a configured arena.
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Forest&type=tb)
 
+**Builder:** [Creative Team](https://discord.gg/wTeaXqK)
+
 **Version:** 1.8.8 and higher
 
 **Screenshots:**
