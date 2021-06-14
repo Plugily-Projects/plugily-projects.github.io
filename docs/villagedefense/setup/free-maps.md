@@ -10,7 +10,7 @@ Download pre-configured maps and enjoy drag and drop feeling ;)
 
 In this section, you can download some additional maps for your server.
 
-Every map contains Secret well, simple shop, lobby room and configured arena.
+Every map contains Secret well, simple shop, and configured arena.
 
 ### Quarry <a id="quarry"></a>
 
