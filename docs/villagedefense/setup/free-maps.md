@@ -12,8 +12,6 @@ In this section, you can download some additional maps for your server.
 
 Every map contains Secret well, simple shop, lobby room and configured arena.
 
-Link to all maps of our minigames [at GDrive](https://drive.google.com/open?id=1Be3maNAEa4W37PZaDmvpNepOv1kGLAnb)
-
 ### Quarry <a id="quarry"></a>
 
 **Quarry map from original Village Defense map pack**
