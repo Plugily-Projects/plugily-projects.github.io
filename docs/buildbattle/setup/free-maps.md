@@ -10,8 +10,6 @@ Download pre-configured maps and enjoy drag and drop feeling ;)
 
 In this section, you can download some additional maps for your server.
 
-Link to all maps of our minigames [at GDrive](https://drive.google.com/open?id=1Be3maNAEa4W37PZaDmvpNepOv1kGLAnb)
-
 ### Abstract
 
 **Abstract map from original Build Battle map pack**
