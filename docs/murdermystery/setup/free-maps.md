@@ -10,8 +10,6 @@ Download pre-configured maps and enjoy drag and drop feeling ;)
 
 In this section, you can download some additional maps for your server.
 
-Every map contains a configured arena.
-
 ### SantaFactory <a id="santafactory"></a>
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=SantaFactory&type=mm)
