@@ -28,6 +28,8 @@ Every map contains a configured arena.
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Fortress&type=tb)
 
+**Builder:** [VentureKraft](https://discord.gg/zp9dxgutrR)
+
 **Version:** 1.15.2 and higher
 
 **Screenshots:**
