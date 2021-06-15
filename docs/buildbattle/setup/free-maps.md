@@ -22,8 +22,6 @@ In this section, you can download some additional maps for your server.
 
 ### Candyland <a id="candyland"></a>
 
-**Candyland map from original Build Battle map pack**
-
 **Download link:** [GDrive](https://drive.google.com/open?id=1NlljHNprryQWbqFvFa0g4bLC6ztYTE6J)
 
 **Coordinates:** 0, 100, 0
