@@ -41,6 +41,6 @@ You can use `villagedefense.customkits.*` permission to give all commands permis
 ### Commands and Permissions - extended shops (VDE 4.5.6+)
 | Commands                                     | Permission                                  | Description                                    |
 |----------------------------------------------|---------------------------------------------|------------------------------------------------|
-| /vda extendedshops edit <category> <arena>   | villagedefense.extendedshops.command.edit   | Opens GUI editor to edit target extended shop. |
-| /vda extendedshops create <category> <arena> | villagedefense.extendedshops.create.edit    | Creates new extended shop for the category     |
-| /vda extendedshops delete <category> <arena> | villagedefense.extendedshops.command.delete | Deletes extended shop of category              |
+| /vda extendedshops edit \[category\]  \[arena\]    | villagedefense.extendedshops.command.edit   | Opens GUI editor to edit target extended shop. |
+| /vda extendedshops create \[category\]  \[arena\]  | villagedefense.extendedshops.create.edit    | Creates new extended shop for the category     |
+| /vda extendedshops delete \[category\]  \[arena\]  | villagedefense.extendedshops.command.delete | Deletes extended shop of category              |
