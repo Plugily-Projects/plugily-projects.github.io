@@ -11,8 +11,8 @@ Fast way to set up your arena
 Check if you got all of these points for an complete arena setup
 
 * Map for game and lobby \(can be on the same world\)
-* The game can contain an secret wall
-  * See [How can I set up secret wall?](simple-setup.md#how-can-i-set-up-secret-well)
+* The game can contain an secret well
+  * See [How can I set up secret well?](simple-setup.md#how-can-i-set-up-secret-well)
   * See [How can I set up the shop?](simple-setup.md#how-can-i-set-up-the-shop)
 * \[Multiworld\] If you want you can set up signs, therefore just place sign\(s\) on the location you want
 
