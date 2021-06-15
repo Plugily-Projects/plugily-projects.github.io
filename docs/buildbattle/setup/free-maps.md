@@ -12,7 +12,7 @@ In this section, you can download some additional maps for your server.
 
 ### Abstract
 
-**Download link:** [GDrive](https://drive.google.com/open?id=1cBn-QtPHcjcieCUQ4yLQEqk6t55qRzQc)
+**Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Abstract&type=bb)
 
 **Coordinates:** 0, 100, 0
 
