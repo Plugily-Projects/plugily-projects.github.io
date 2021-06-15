@@ -14,7 +14,7 @@ Every map contains a secret well, simple shop, and configured arena.
 
 ### Quarry <a id="quarry"></a>
 
-**Download link:** [GDrive](https://drive.google.com/open?id=1oACneo7Y1eoAWYnlqPoAiJzi7q0c704f)
+**Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Quarry&type=vd)
 
 **Coordinates:** 0, 80, 0
 
