@@ -12,8 +12,6 @@ In this section, you can download some additional maps for your server.
 
 ### Abstract
 
-**Abstract map from original Build Battle map pack**
-
 **Download link:** [GDrive](https://drive.google.com/open?id=1cBn-QtPHcjcieCUQ4yLQEqk6t55qRzQc)
 
 **Coordinates:** 0, 100, 0
