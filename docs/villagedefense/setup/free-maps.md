@@ -34,7 +34,7 @@ Every map contains a secret well, simple shop, and configured arena.
 
 ### Mushroom <a id="mushroom"></a>
 
-**Download link:** [Mega](https://mega.nz/folder/Zo5jWYyQ#eva37vtsdIscuTw3NTCXqA)
+**Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Mushroom&type=vd)
 
 **Screenshots:**
 
