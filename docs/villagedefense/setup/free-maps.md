@@ -6,13 +6,13 @@ sidebar_label: Free maps
 ---
 Download pre-configured maps and enjoy drag and drop feeling ;)
 
-## Village Defense custom maps <a id="village-defense-custom-maps"></a>
+## Village Defense custom maps
 
 In this section, you can download some additional maps for your server.
 
 Every map contains a secret well, simple shop, and configured arena.
 
-### Quarry <a id="quarry"></a>
+### Quarry
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Quarry&type=vd)
 
@@ -22,7 +22,7 @@ Every map contains a secret well, simple shop, and configured arena.
 
 ![](https://i.imgur.com/N8EHEZP.jpg)
 
-### Hollow <a id="hollow"></a>
+### Hollow
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Hollow&type=vd)
 
@@ -32,7 +32,7 @@ Every map contains a secret well, simple shop, and configured arena.
 
 ![](https://i.imgur.com/GMmTz1b.jpg)
 
-### Mushroom <a id="mushroom"></a>
+### Mushroom
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Mushroom&type=vd)
 
