@@ -6,11 +6,11 @@ sidebar_label: Free maps
 ---
 Download pre-configured maps and enjoy drag and drop feeling ;)
 
-## Murder Mystery custom maps <a id="murder-mystery-custom-maps"></a>
+## Murder Mystery custom maps
 
 In this section, you can download some additional maps for your server.
 
-### SantaFactory <a id="santafactory"></a>
+### SantaFactory
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=SantaFactory&type=mm)
 
@@ -22,7 +22,7 @@ In this section, you can download some additional maps for your server.
 
 ![](https://cdn.discordapp.com/attachments/607914966951133195/783441775352086558/unknown.png)
 
-### Offices <a id="offices"></a>
+### Offices
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Offices&type=mm)
 
