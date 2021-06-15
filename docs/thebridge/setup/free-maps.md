@@ -6,11 +6,11 @@ sidebar_label: Free maps
 ---
 Download pre-configured maps and enjoy drag and drop feeling ;)
 
-## The Bridge custom maps <a id="the-bridge-custom-maps"></a>
+## The Bridge custom maps
 
 In this section, you can download some additional maps for your server.
 
-### Forest <a id="forest"></a>
+### Forest
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Forest&type=tb)
 
@@ -22,7 +22,7 @@ In this section, you can download some additional maps for your server.
 
 ![](https://cdn.discordapp.com/attachments/607914966951133195/840710159776219216/03_MapPicture.png)
 
-### Fortress <a id="fortress"></a>
+### Fortress
 
 **Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Fortress&type=tb)
 
