@@ -14,8 +14,6 @@ Every map contains a secret well, simple shop, and configured arena.
 
 ### Quarry <a id="quarry"></a>
 
-**Quarry map from original Village Defense map pack**
-
 **Download link:** [GDrive](https://drive.google.com/open?id=1oACneo7Y1eoAWYnlqPoAiJzi7q0c704f)
 
 **Coordinates:** 0, 80, 0
@@ -25,8 +23,6 @@ Every map contains a secret well, simple shop, and configured arena.
 ![](https://i.imgur.com/N8EHEZP.jpg)
 
 ### Hollow <a id="hollow"></a>
-
-**Hollow map from original Village Defense map pack**
 
 **Download link:** [GDrive](https://drive.google.com/open?id=1MinAzjmcd7EaD75aESAU8-oz7-wjRQhL)
 
