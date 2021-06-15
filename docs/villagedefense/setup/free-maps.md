@@ -24,7 +24,7 @@ Every map contains a secret well, simple shop, and configured arena.
 
 ### Hollow <a id="hollow"></a>
 
-**Download link:** [GDrive](https://drive.google.com/open?id=1MinAzjmcd7EaD75aESAU8-oz7-wjRQhL)
+**Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Hollow&type=vd)
 
 **Coordinates:** -50, 72, 50
 
