@@ -22,7 +22,7 @@ In this section, you can download some additional maps for your server.
 
 ### Candyland <a id="candyland"></a>
 
-**Download link:** [GDrive](https://drive.google.com/open?id=1NlljHNprryQWbqFvFa0g4bLC6ztYTE6J)
+**Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Candyland&type=bb)
 
 **Coordinates:** 0, 100, 0
 
