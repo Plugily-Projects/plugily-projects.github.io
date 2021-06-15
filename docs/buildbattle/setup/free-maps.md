@@ -32,7 +32,7 @@ In this section, you can download some additional maps for your server.
 
 ### Dragon <a id="dragon"></a>
 
-**Download link:** [Mega](https://mega.nz/folder/ZtQRXC5Y#nhDbwJDh4Df7Ho76ydkMEQ)
+**Download link:** [Plugily Download](https://download.plugily.xyz/get.php?map=Dragon&type=bb)
 
 **Screenshots:**
 
