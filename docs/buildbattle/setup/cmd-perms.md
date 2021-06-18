@@ -6,8 +6,11 @@ sidebar_label: Commands and permissions
 ---
 Overview about all commands and permissions
 
-
 :::note
+Some permissions are configurable (such as heads, biomes, etc). You can find the permission for those in their respective file (for example, biomes.yml for biomes)
+:::
+
+:::important
 \[required argument\] \(optional argument\)
 :::
 
