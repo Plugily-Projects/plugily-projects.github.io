@@ -17,7 +17,7 @@ title: Beta program
 
 ## How can I join?
 :::info
-Join easily by using this discord invite: https://discord.gg/zJpyV9U
+Join easily by using this discord invite: https://discord.plugily.xyz
 :::
 :::note
 If you are already on our discord you can just go to the channel #opt-in-opt-out and select the beta program!
