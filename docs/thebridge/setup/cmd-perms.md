@@ -24,6 +24,7 @@ Overview about all commands and permissions
 | /tb leave                 |                                                           | Quits current game. You can disable game quit in config.yml |
 | /tb top [statistic]       |                                                           | Shows top 10 users from requested statistic                 |
 | /tb selectkit             | thebridge.command.selectkit                               | Change kit while being on lobby                             |
+| /tb selectbase            | thebridge.command.selectbase                              | Change base while being on lobby                            |
 
 
 ## Admin
