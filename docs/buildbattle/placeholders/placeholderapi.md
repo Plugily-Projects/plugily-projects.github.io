@@ -10,16 +10,19 @@ These are the **PlaceholderAPI** \(PAPI\) placeholders for BuildBattle. They are
 
 ## Statistics placeholders
 
-| Placeholder                    | Description                                     |
-|--------------------------------|-------------------------------------------------|
-| %buildbattle\_blocks\_broken%  | Shows your total in-game broken blocks          |
-| %buildbattle\_blocks\_placed%  | Shows your total in-game placed blocks          |
-| %buildbattle\_games\_played%   | Shows the total number of games you have played |
-| %buildbattle\_wins%            | Shows your total win count                      |
-| %buildbattle\_loses%           | Shows your total loss count                     |
-| %buildbattle\_highest\_win%    | Shows your                                      |
-| %buildbattle\_particles\_used% | Shows your total used particles count           |
-| %buildbattle\_arena\_players\_online% | Shows the player amount of all arenas together                                           |
+| Placeholder                           | Description                                     |
+|---------------------------------------|-------------------------------------------------|
+| %buildbattle\_blocks\_broken%         | Shows your total in-game broken blocks          |
+| %buildbattle\_blocks\_placed%         | Shows your total in-game placed blocks          |
+| %buildbattle\_games\_played%          | Shows the total number of games you have played |
+| %buildbattle\_wins%                   | Shows your total win count                      |
+| %buildbattle\_loses%                  | Shows your total loss count                     |
+| %buildbattle\_highest\_win%           | Shows your highest points as first place        |
+| %buildbattle\_highest\_points%        | Shows your highest points at all                |
+| %buildbattle\_total\_points\_earned%  | Shows your total points that you earned         |
+| %buildbattle\_particles\_used%        | Shows your total used particles count           |
+| %buildbattle\_arena\_players\_online% | Shows the player amount of all arenas together  |
+
 
 
 ## Arena-related placeholders
