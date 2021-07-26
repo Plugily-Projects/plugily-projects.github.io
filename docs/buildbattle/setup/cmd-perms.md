@@ -25,6 +25,7 @@ Some permissions are configurable (such as heads, biomes, etc). You can find the
 | /bb leave                                   |                                                                   | Quits current game. You can disable game quit in config.yml            |
 | /bb top [statistic]                         |                                                                   | Shows TOP 10 players of specified statistic                            |
 | /bb guess [theme]                           |                                                                   | Only works on GTB mode - Can be useful for bungee handled chat servers |
+| /bb selectplot                              | `buildbattle.command.selectplot`                                 | Only works on TEAM mode - Select the plot you want to join             |
 
 
 ## Admin
