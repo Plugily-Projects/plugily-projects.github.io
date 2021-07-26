@@ -13,10 +13,12 @@ Some basic questions and answers
 
 **What Village Defense modifies in the world:**
 
-* Blocks mob spawning other than Village Defense ones
+* Blocks creatures other than Village Defense ones
+  * Blocks mob spawning in a range of 150 in all directions from arena start location
+  * Does not block custom or command spawned creatures
 * Cleans hoppers inventories
 * Manipulates Villager entities
-*  **Might not be compatible with other minigames \(zombies/villagers will be invisible\)**
+* **Might not be compatible with other minigames \(zombies/villagers will be invisible\)**
 
 :::warning
 **Using Village Defense you accept GPLv3 license and limitations of liability that Village Defense can cause, please become acquainted with following warnings before using Village Defense on a production server.**
