@@ -83,3 +83,5 @@ Every kit has its own permission node to access it. Even if it's level kit, you 
 **Info!** **Premium kits** also unlocks with full kit permissions \( `thebridge.kits` \) and **leveled kits** are unlocked too when certain level is reached.
 :::
 
+## Additional permissions
+*thebridge.command.bypass* - Be able to bypass in-game command restriction

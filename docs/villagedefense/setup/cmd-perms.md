@@ -124,3 +124,5 @@ Every kit has its own permission node to access it. Even if it's level kit, you 
 **Info!** **Premium kits** also unlocks with Vip/Mvp or Elite permissions and **leveled kits** are unlocked too when certain level is reached.
 :::
 
+## Additional permissions
+*villagedefense.command.bypass* - Be able to bypass in-game command restriction

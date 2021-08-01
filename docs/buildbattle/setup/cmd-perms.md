@@ -64,3 +64,5 @@ Basic-Permissions:
   Join-Permission: "buildbattle.join.<arena>"
 ```
 
+## Additional permissions
+*buildbattle.command.bypass* - Be able to bypass in-game command restriction

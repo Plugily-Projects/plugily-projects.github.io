@@ -56,3 +56,5 @@ Basic-Permissions:
   Join-Permission: "murdermystery.join.<arena>"
 ```
 
+## Additional permissions
+*murdermystery.command.bypass* - Be able to bypass in-game command restriction
