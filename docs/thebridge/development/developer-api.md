@@ -53,9 +53,9 @@ The event is called when a player is trying to join an arena.
 ```js
     @EventHandler
     public void onGameJoin(TBGameJoinAttemptEvent event){
-        e.getPlayer().sendMessage("You have joined " + e.getArena().getID());
-        e.setCancelled(true);
-        e.getPlayer().sendMessage("Or maybe not? :D");
+        event.getPlayer().sendMessage("You have joined " + event.getArena().getID());
+        event.setCancelled(true);
+        event.getPlayer().sendMessage("Or maybe not? :D");
     }
 ```
 
@@ -95,7 +95,7 @@ The event is called when a player is trying to leave an arena.
 ```js
     @EventHandler
     public void onGameQuit(TBGameLeaveAttemptEvent event){
-        e.getPlayer().sendMessage("You have quitted" + e.getArena().getID());
+        event.getPlayer().sendMessage("You have quitted" + e.getArena().getID());
     }
 ```
 
@@ -129,10 +129,10 @@ The event is called when the player chose kit in game.
 ```js
     @EventHandler
     public void onKitChoose(TBPlayerChooseKitEvent event){
-        Kit kit = e.getKit();
+        Kit kit = event.getKit();
         if(kit.getName().contains("knight")){
-            e.getPlayer().sendMessage("Knight kits aren't for you mate! Use archer kit instead!");
-            e.setCancelled(true);
+            event.getPlayer().sendMessage("Knight kits aren't for you mate! Use archer kit instead!");
+            event.setCancelled(true);
         }
     }
 ```
@@ -160,10 +160,10 @@ The event is called when the player chose base in game.
 ```js
     @EventHandler
     public void onKitChoose(TBPlayerChooseBaseEvent event){
-        Base base = e.getBase();
+        Base base = event.getBase();
         if(base.getSize == 2){
-            e.getPlayer().sendMessage("Haha no one can join this base");
-            e.setCancelled(true);
+            event.getPlayer().sendMessage("Haha no one can join this base");
+            event.setCancelled(true);
         }
     }
 ```
@@ -189,8 +189,8 @@ The event is called when arena game state changes.
 ```js
     @EventHandler
     public void onGameStateChange(TBGameStateChangeEvent event){
-        String state = e.getArenaState().getFormattedName();
-        for(Player p : e.getArena().getPlayers()){
+        String state = event.getArenaState().getFormattedName();
+        for(Player p : event.getArena().getPlayers()){
             p.sendMessage("Arena state changed to " + state);
         }
     }
@@ -209,9 +209,9 @@ The event is called when the player receives a new statistic.
 ```js
     @EventHandler
     public void onStatChange(TBPlayerStatisticChangeEvent event){
-        StatisticType stat = e.getStatisticType();
-        int statNumber = e.getNumber();
-        e.getPlayer().sendMessage("Your statistic " + stat.getName() + " has changed to " + statNumber);
+        StatisticType stat = event.getStatisticType();
+        int statNumber = event.getNumber();
+        event.getPlayer().sendMessage("Your statistic " + stat.getName() + " has changed to " + statNumber);
     }
 ```
 
