@@ -34,7 +34,7 @@ Please read this privacy notice carefully as it will help you understand what we
 
 Information automatically collected
 
-In Short:  Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Website.
+_**In Short:**  Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Website._
 
 We automatically collect certain information when you visit, use or navigate the Website. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Website and other technical information. This information is primarily needed to maintain the security and operation of our Website, and for our internal analytics and reporting purposes.
 
@@ -47,7 +47,7 @@ Location Data. We collect location data such as information about your device's 
 
 ## 2. HOW DO WE USE YOUR INFORMATION?
 
-In Short:  We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.
+_**In Short:**  We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent._
 
 We use personal information collected via our Website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.
 
@@ -69,7 +69,7 @@ For other business purposes. We may use your information for other business purp
 
 ## 3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
 
-In Short:  We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.
+_**In Short:**  We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations._
 
 We may process or share your data that we hold based on the following legal basis:
 Consent: We may process your data if you have given us specific consent to use your personal information for a specific purpose.
@@ -83,13 +83,13 @@ Business Partners. We may share your information with our business partners to o
 
 ## 4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
 
-In Short:  We may use cookies and other tracking technologies to collect and store your information.
+_**In Short:**  We may use cookies and other tracking technologies to collect and store your information._
 
 We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
 
 ## 5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
 
-In Short:  If you choose to register or log in to our services using a social media account, we may have access to certain information about you.
+_**In Short:**  If you choose to register or log in to our services using a social media account, we may have access to certain information about you._
 
 Our Website offers you the ability to register and login using your third-party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, profile picture as well as other information you choose to make public on such social media platform.
 
@@ -97,7 +97,7 @@ We will use the information we receive only for the purposes that are described 
 
 ## 6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
 
-In Short:  We may transfer, store, and process your information in countries other than your own.
+_**In Short:**  We may transfer, store, and process your information in countries other than your own._
 
 Our servers are located in. If you are accessing our Website from outside, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information (see "WILL YOUR INFORMATION BE SHARED WITH ANYONE?" above), in and other countries.
 
@@ -105,13 +105,13 @@ If you are a resident in the European Economic Area, then these countries may no
 
 ## 7. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
 
-In Short:  We are not responsible for the safety of any information that you share with third-party providers who advertise, but are not affiliated with, our Website.
+_**In Short:**  We are not responsible for the safety of any information that you share with third-party providers who advertise, but are not affiliated with, our Website._
 
 The Website may contain advertisements from third parties that are not affiliated with us and which may link to other websites, online services or mobile applications. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this privacy notice. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services or applications that may be linked to or from the Website. You should review the policies of such third parties and contact them directly to respond to your questions.
 
 ## 8. HOW LONG DO WE KEEP YOUR INFORMATION?
 
-In Short:  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.
+_**In Short:**  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law._
 
 We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 6 months.
 
@@ -119,19 +119,19 @@ When we have no ongoing legitimate business need to process your personal inform
 
 ## 9. HOW DO WE KEEP YOUR INFORMATION SAFE?
 
-In Short:  We aim to protect your personal information through a system of organizational and technical security measures.
+_**In Short:**  We aim to protect your personal information through a system of organizational and technical security measures._
 
 We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Website is at your own risk. You should only access the Website within a secure environment.
 
 ## 10. DO WE COLLECT INFORMATION FROM MINORS?
 
-In Short:  We do not knowingly collect data from or market to children under 18 years of age.
+_**In Short:**  We do not knowingly collect data from or market to children under 18 years of age._
 
 We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at management@plugily.xyz.
 
 ## 11. WHAT ARE YOUR PRIVACY RIGHTS?
 
-In Short:  You may review, change, or terminate your account at any time.
+_**In Short:**  You may review, change, or terminate your account at any time._
 
 If you are a resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.
 
@@ -145,7 +145,7 @@ Most web browsers and some mobile operating systems and mobile applications incl
 
 ## 13. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
 
-In Short:  Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.
+_**In Short:**  Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information._
 
 California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
 
@@ -153,7 +153,7 @@ If you are under 18 years of age, reside in California, and have a registered ac
 
 ## 14. DO WE MAKE UPDATES TO THIS NOTICE?
 
-In Short:  Yes, we will update this notice as necessary to stay compliant with relevant laws.
+_**In Short:**  Yes, we will update this notice as necessary to stay compliant with relevant laws._
 
 We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
 
@@ -171,5 +171,5 @@ Email: [management@plugily.xyz](mailto:management@plugily.xyz)
 
 ## 16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking here. We will respond to your request within 30 days.
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking here. We will respond to your request as soon as we can. It shouldn't take longer than 30 days. 
 This privacy policy was created using Termly’s Privacy Policy Generator.
