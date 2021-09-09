@@ -8,11 +8,11 @@ Wir informieren Sie nachfolgend gemäß den gesetzlichen Vorgaben des Datenschut
 ## **Name und Kontaktdaten des / der Verantwortlichen**  
 Unser/e Verantwortliche/r (nachfolgend „Verantwortlicher“) i.S.d. Art. 4 Zif. 7 DS-GVO ist:
 
-Julian-Max Maschke
-c/o Block Services
-Stuttgarter Str. 106
-70736 Fellbach
-Germany
+    Julian-Max Maschke
+    c/o autorenglück.de
+    Franz-Mehring-Str. 15
+    01237 Dresden
+    Germany
 
 E-Mail-Adresse: [management@plugily.xyz](mailto:management@plugily.xyz)
 
@@ -243,5 +243,3 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 ## **Datensicherheit**
 
 Um alle personenbezogen Daten, die an uns übermittelt werden, zu schützen und um sicherzustellen, dass die Datenschutzvorschriften von uns, aber auch unseren externen Dienstleistern eingehalten werden, haben wir geeignete technische und organisatorische Sicherheitsmaßnahmen getroffen. Deshalb werden unter anderem alle Daten zwischen Ihrem Browser und unserem Server über eine sichere SSL-Verbindung verschlüsselt übertragen.
-
-**Stand: 08.03.2021**

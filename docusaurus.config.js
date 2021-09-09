@@ -24,7 +24,6 @@ module.exports = {
       },
       //... other Algolia params
     },
-    sidebarCollapsible: true,
     hideableSidebar: true,
     navbar: {
       hideOnScroll: true,

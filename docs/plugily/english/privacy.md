@@ -3,10 +3,6 @@ id: privacy
 title: PRIVACY NOTICE
 ---
 
-Last updated March 08, 2021
-
-
-
 Thank you for choosing to be part of our community at Plugily Projects ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at management@plugily.xyz.
 
 When you visit our website https://plugily.xyz (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
@@ -165,11 +161,11 @@ We may update this privacy notice from time to time. The updated version will be
 
 If you have questions or comments about this notice, you may email us at **management@plugily.xyz** (preferred) or by post to:
 
-Julian-Max Maschke
-c/o Block Services
-Stuttgarter Str. 106
-70736 Fellbach
-Germany
+    Julian-Max Maschke
+    c/o autorenglück.de
+    Franz-Mehring-Str. 15
+    01237 Dresden
+    Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)
 

@@ -3,11 +3,11 @@ id: impressum
 title: Impressum
 ---
 
-Julian-Max Maschke
-c/o Block Services
-Stuttgarter Str. 106
-70736 Fellbach
-Germany
+    Julian-Max Maschke
+    c/o autorenglück.de
+    Franz-Mehring-Str. 15
+    01237 Dresden
+    Germany
 
 E-Mail-Adresse: [management@plugily.xyz](mailto:management@plugily.xyz)
 

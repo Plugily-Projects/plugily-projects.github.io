@@ -3,14 +3,12 @@ id: disclaimer
 title: Disclaimer
 ---
 
-Last updated March 02, 2021
-
 ## Contact:
-Julian-Max Maschke
-c/o Block Services
-Stuttgarter Str. 106
-70736 Fellbach
-Germany
+    Julian-Max Maschke
+    c/o autorenglück.de
+    Franz-Mehring-Str. 15
+    01237 Dresden
+    Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)
 

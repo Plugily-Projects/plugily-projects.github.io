@@ -3,9 +3,6 @@ id: terms
 title: TERMS OF USE
 ---
 
-Last updated March 02, 2021
-
-
 
 ## AGREEMENT TO TERMS
 
@@ -222,11 +219,11 @@ These Terms of Use and any policies or operating rules posted by us on the Site 
 
 In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
 
-Julian-Max Maschke
-c/o Block Services
-Stuttgarter Str. 106
-70736 Fellbach
-Germany
+    Julian-Max Maschke
+    c/o autorenglück.de
+    Franz-Mehring-Str. 15
+    01237 Dresden
+    Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)
 

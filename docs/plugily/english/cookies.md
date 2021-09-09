@@ -74,11 +74,11 @@ The date at the bottom of this Cookie Policy indicates when it was last updated.
 
 If you have any questions about our use of cookies or other technologies, please email us at management@plugily.xyz or by post to:
 
-Julian-Max Maschke
-c/o Block Services
-Stuttgarter Str. 106
-70736 Fellbach
-Germany
+    Julian-Max Maschke
+    c/o autorenglück.de
+    Franz-Mehring-Str. 15
+    01237 Dresden
+    Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)
 
