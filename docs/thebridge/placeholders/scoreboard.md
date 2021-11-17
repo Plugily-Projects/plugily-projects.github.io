@@ -15,8 +15,7 @@ These are the **internal** placeholders for TheBridge. They are included with th
 | %PLAYERS\_LEFT% | Size of alive players in arena |
 | %TIME% | Current arena timer \(ex. 10 seconds before start\) |
 | %FORMATTED\_TIME% | Returns time formatted |
-| %ARENA\_NAME% | Returns arena name |
-| %ARENA\_ID% | Returns arena id |
+| %MAPNAME% | Returns arena name |
 | %BASES% | Returns all bases formatted |
 | %BASE\_COLOR% | Returns players base color |
 | %BASE% | Returns base name \(color name\) |
