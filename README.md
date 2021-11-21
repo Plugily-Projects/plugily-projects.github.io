@@ -1,6 +1,6 @@
 # Plugily Projects Page
 
-This repository represents https://wiki.plugily.xyz and https://plugily.xyz
+This repository represents https://wiki.plugily.xyz
 
 # Website
 
