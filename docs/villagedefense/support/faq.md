@@ -9,6 +9,11 @@ Some basic questions and answers
 
 ## **Limitation of liability disclaimer**
 
+:::caution  Critical security exploit caused by Log4j
+Make sure to be aware about a major security exploit found in 2021 on a common Java logging library. May your server is concerned by it.
+[Check out minecraft.net article](https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition "IMPORTANT MESSAGE: SECURITY VULNERABILITY IN JAVA EDITION")
+:::
+
 **Village Defense** plugin **SHOULD BE RUN** on a separate world when using it on multi-mode servers like Factions, Survival, SkyBlock etc.
 
 **What Village Defense modifies in the world:**
@@ -26,7 +31,9 @@ Some basic questions and answers
 
 ## Supported versions of Village Defense
 
-Supported versions are currently 1.11 - 1.16.XIf your plugin doesn't startup and you don't have this version you're receiving this message:
+Supported versions are currently 1.8.8 - 1.17.1
+
+If your plugin doesn't startup and you don't have this version you're receiving this message:
 
 ```text
   _   _           _                                                    _                _
