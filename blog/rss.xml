@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Plugily Projects Wiki Blog</title>
+        <link>https://Plugily-Projects.github.io/blog</link>
+        <description>Plugily Projects Wiki Blog</description>
+        <lastBuildDate>Fri, 20 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Summerbreak 21]]></title>
+            <link>https://Plugily-Projects.github.io/blog/summerbreak2021</link>
+            <guid>summerbreak2021</guid>
+            <pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We will be on summerbreak the next few weeks and start working again on October 2021. The support is open but the conversation rate will be lowered as we are on vacation. The average response time will be maxed out to around 72 hours instead of 2 hours.]]></description>
+            <content:encoded><![CDATA[<p>:::caution Summerbreak 2021
+We will be on summerbreak the next few weeks and start working again on October 2021. The support is open but the conversation rate will be lowered as we are on vacation. The average response time will be maxed out to around 72 hours instead of 2 hours.
+:::</p><p><strong>Throwback</strong></p><p>We started the year with many internal changes. The name change from Plajers Lair to Plugily Projects took a little longer in some areas and took some time to get used to. In the end, we went through with the name change completely. Plugily Projects defines us on a broad scale and does not limit us to a one-man operation, as it seemed before.
+Mainly the Wiki, Api service(s) and Discord were affected. We are looking forward to the new time together and have already spent some nice months together under the new name.</p><p><strong>Summerbreak 2021</strong></p><p>As you have already seen above, we are in the summer break at the moment. That doesn&#x27;t mean we are inactive, but we are taking some time off and want to relax and spend more time than usual with friends and family. This is the most important wish in our team, to have a hobby that is fun and does not bring any pressure or stress with it. A project that is fun together and educates everyone.</p><p><strong>End of (old) beta testers</strong></p><p>We want to thank again all our beta testers that were included into all betas until now. Beta testers please read the last announcement on the beta channel of our discord or read the planned new beta programm to get in touch with the next steps as beta tester ;)</p><p><strong>Planned</strong>
+:::note In short
+Currently we want to enhance the experience with our plugins by adding new stuff to them. Here and there along the lines (discord) you will see whats planned or will get changed. Therefore we want to change how we code and how the team works together. That means it will be a bit silent to the public the next weeks as we need to create/update internal stuff to go forward.
+:::</p><p>:::tip We got several stuff on our todo</p><div values="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"><div value="internal"> Goal: Being more simple, modern and stronger <br/> How: Internal changes that helps us to execute our work faster, optimize processes and start thinking about more automation/ki projects</div><div value="beta"> The beta program is now going into **summer break.** We thank you for all the help over the last years! Currently we don&#x27;t like the beta program anymore. It does not meet our quality standards anymore. We are thinking deeply and will start with a completely new system in the future. This new system will improve the contact between testers and plugily. It will optimize processes and the usefulness of a beta release. <p><em>Current process:</em>
+1 A beta is released
+2 Almost no feedback</p><p><em>Use at the moment:</em></p><ul><li>Almost none for both sides</li></ul><p><strong>Future flow:</strong><br/>
+1 Different roles of testers (currently there are internal and beta testers - future: DEV TESTERS and BETA TESTERS)<br/>
+2a DEV TESTERS will work hand in hand with Plugily in direct contact (more effort)<br/>
+2b BETA TESTERS will work in close contact with Plugily (less effort)<br/>
+3 Feedback will be collected through one point of contact<br/>
+4 Feedback will be evaluated or assessed<br/>
+5 Feedback will be implemented<br/></p><p><strong>Future benefit:</strong></p><ul><li>mutual commitment to a common goal</li><li>Feedback flows directly into development</li></ul><p><strong>Will I be a beta tester in the future?</strong></p><ul><li>Currently the new system is still in the thinking phase, so we plan that all beta testers can also be a beta tester in the new system.</li><li>There will be a choice of roles in the new system, so it will be your own interest</li><li>It will be extensively documented, from which you can deduce if you want to be a beta tester in the new system.</li></ul><p><strong>How can I help atm until new platform get released?</strong></p><ul><li>You can always try a dev version and tell us if the feature for the dev version works or not on a ticket or in general questions</li><li>Dev versions can be downloaded by using latest channel on <a href="https://download.plugily.xyz">https://download.plugily.xyz</a></li></ul></div><div value="core"> Currently we are working on one code base for all plugins to maintain all our projects with only one code which minimize time effort by around 5 times. Currently we need to do code changes 4 times for the same issue. Why you did not think about it earlier? Well better late than never. The core will also include a improved systems such as easier language system for all of our plugins.</div><div value="minigame">We want to realease a new minigame this year. Keep in mind to vote on our discord for one/To tell us about your ideas on the plugin ideas channel.</div><div value="tails">Currently our Bot Tails is at his 2. Generation. We will try to start the 3. Generation of Tails this year with a lot of new and additional stuff that was never seens anywhere before. It doesn&#x27;t only contain ticket improvements and a working verification system. It also includes some currency module to earn points with activity that can be used to claim one patreon addon as prize.</div><div value="web">We are creating and redesigning all our web pages to be more simple and modern. There will be a lot of internal and external new platforms that will help with the communication beetween staff and team</div></div><p>:::</p><p><strong>Global pandemic</strong></p><p>We hope that all your relatives survive the pandemic well and do not fall ill or have fallen ill with Corona. We wish everyone strength and health for the next months of building up various different measures against the future situation. We as Plugily Projects support local vaccination campaigns for the protection of each individual. Together we will create a world like before Corona!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Introducing our new Wiki]]></title>
+            <link>https://Plugily-Projects.github.io/blog/new-wiki</link>
+            <guid>new-wiki</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to our new wiki! We migrated from gitbook to our own hosted wiki on github pages]]></description>
+            <content:encoded><![CDATA[<p>Welcome to our new wiki! We migrated from gitbook to our own hosted wiki on github pages</p><p>Enjoy this nice new wiki with a lot better user experience! </p><p>Feel free to change/improve sites of the wiki by clicking edit this page ;)</p><p>Stay healthy!</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -1,1 +1,0 @@
-(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[6042],{4486:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/summerbreak","name":"summerbreak","count":1,"permalink":"/blog/tags/summerbreak"}')}}]);
