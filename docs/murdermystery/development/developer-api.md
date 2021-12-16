@@ -97,7 +97,7 @@ The event is called when a player is trying to leave an arena.
 >
 > **event\#getArena\(\)** - returns existing arena what player is attempting to leave
 
-### **MMGameEndEvent**
+### **MMGameStopEvent**
 
 The event is called when a game has ended.
 
@@ -105,7 +105,7 @@ The event is called when a game has ended.
 
 ```js
     @EventHandler
-    public void onGameStop(MMGameEndEvent event){
+    public void onGameStop(MMGameStopEvent event){
         for(Player p : event.getArena().getPlayers()){
             p.sendMessage("Cool game? Maybe play again?");
         }
