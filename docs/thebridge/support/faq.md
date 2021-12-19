@@ -12,6 +12,7 @@ Some basic questions and answers
 :::caution  Critical security exploit caused by Log4j
 Make sure to be aware about a major security exploit found in 2021 on a common Java logging library. May your server is concerned by it.
 [Check out minecraft.net article](https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition "IMPORTANT MESSAGE: SECURITY VULNERABILITY IN JAVA EDITION")
+[Check out spigotmc.org article](https://www.spigotmc.org/threads/spigot-security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/ "IMPORTANT MESSAGE: UPDATE YOUR SERVER JAR!")
 :::
 
 **The Bridge** plugin **SHOULD BE RUN** on a separate world when using it on multi-mode servers like Factions, Survival, SkyBlock etc.
