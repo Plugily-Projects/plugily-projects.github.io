@@ -227,7 +227,7 @@ The event is called when the player receives a new statistic.
 
 ### **Retrieving online players stats**
 
-You can easily get online players stats using Village Defense API - Stats Storage class.
+You can easily get online players stats using the API - Stats Storage class.
 
 **Example:**
 
