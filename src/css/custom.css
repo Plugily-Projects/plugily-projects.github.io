@@ -7,14 +7,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-    --ifm-color-primary: #cebb9a;
-    --ifm-color-primary-dark: #c2ab82;
-    --ifm-color-primary-darker: #bca376;
-    --ifm-color-primary-darkest: #aa8a52;
-    --ifm-color-primary-light: #dacbb2;
-    --ifm-color-primary-lighter: #e0d3be;
-    --ifm-color-primary-lightest: #f1ece3;
-    --ifm-code-font-size: 95%;
+    --ifm-color-primary: #bea578;
+    --ifm-color-primary-dark: #b49763;
+    --ifm-color-primary-darker: #af9059;
+    --ifm-color-primary-darkest: #927747;
+    --ifm-color-primary-light: #c8b38d;
+    --ifm-color-primary-lighter: #cdba97;
+    --ifm-color-primary-lightest: #dccfb7;
 
     --ifm-color-success: #75de99;
     --ifm-color-danger: #ea5353;
@@ -26,6 +25,16 @@
 }
 
 html[data-theme='dark'] {
+    --ifm-color-primary: #d3c2a1;
+    --ifm-color-primary-dark: #c7b288;
+    --ifm-color-primary-darker: #c1a97b;
+    --ifm-color-primary-darkest: #bba16e;
+    --ifm-color-primary-light: #dfd2ba;
+    --ifm-color-primary-lighter: #e5dbc7;
+    --ifm-color-primary-lightest: #ebe3d4;
+    --ifm-background-color: #2c2f33;
+    --ifm-table-stripe-background: #3B3F44;
+
     --discord_logo_url: url(/img/Discord-Logo-White.svg);
     --github_logo_url: url(/img/github_logo_white.svg);
     --patreon_logo_url: url(/img/Patreon-White.png);
@@ -38,9 +47,6 @@ html[data-theme='dark'] {
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
 }
-
-
-
 
 .navbar__item.navbar__link[href*='github'],
 .navbar__item.navbar__link[href*='patreon'],
