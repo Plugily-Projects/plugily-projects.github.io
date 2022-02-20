@@ -56,7 +56,11 @@ module.exports = {
             },
           ],
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'blog',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           to: 'plugily/translate/',
           label: 'Translate',
@@ -78,23 +82,23 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://patreon.com/plugily',
+          to: 'https://patreon.com/plugily',
           label: 'Patreon',
           position: 'right',
         },
         {
-          href: 'https://donate.plugily.xyz',
+          to: 'https://donate.plugily.xyz',
           label: 'Donate',
           position: 'right',
         },
         {
-          href: 'https://github.com/Plugily-Projects',
+          to: 'https://github.com/Plugily-Projects',
           label: 'GitHub',
           position: 'right',
         },
         {
           label: 'Discord',
-          href: 'https://discord.plugily.xyz',
+          to: 'https://discord.plugily.xyz',
           position: 'right',
         },
       ],
