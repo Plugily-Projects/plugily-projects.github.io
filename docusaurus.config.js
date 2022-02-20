@@ -11,17 +11,18 @@ module.exports = {
   projectName: 'plugily-projects.github.io', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: '924dcf6d3f3c84ab4e35f01a2159accc',
+      appId: 'C7BTFJ8WFY',
+      apiKey: 'e4e4f7bcc3b95cf07c6f34fdff150fb4',
       indexName: 'plugily',
 
-      // Optional: see doc section bellow
-      contextualSearch: false,
+      // Optional: see doc section below
+      contextualSearch: true,
       // Optional: Algolia search parameters
       //inputSelector: '### REPLACE ME ####',
-      debug: false,
-      searchParameters: {
-        'facetFilters': ["type:content"]
-      },
+      //debug: false,
+      //searchParameters: {
+      //  'facetFilters': ["type:content"]
+      //},
       //... other Algolia params
     },
     hideableSidebar: true,
