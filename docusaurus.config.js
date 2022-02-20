@@ -158,15 +158,12 @@ module.exports = {
           title: 'Partner',
           items: [
             {
-              label: 'Retronode.net',
-              href: 'https://retronode.net',
+              label: 'Feedbacky.net',
+              href: 'https://feedbacky.net/',
             },
               {
               //Renders the html pass-through instead of a simple link
               html: `
-                <a href="https://retronode.net" target="_blank" rel="noreferrer noopener">
-                  <img src="https://retronode.net/img/new_banner.gif"/>
-                </a>
               `,
             },
           ],
