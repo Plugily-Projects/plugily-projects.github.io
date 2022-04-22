@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[8359],{150:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/plugily-projects","name":"plugily projects","count":2,"permalink":"/blog/tags/plugily-projects"}')}}]);
