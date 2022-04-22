@@ -199,7 +199,7 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
 ## **Rechte der betroffenen Person**
 
-1.  **Widerspruch oder Widerruf gegen die Verarbeitung Ihrer Daten
+1.  Widerspruch oder Widerruf gegen die Verarbeitung Ihrer Daten
 
     Soweit die Verarbeitung auf Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a), Art. 7 DS-GVO beruht, haben Sie das Recht, die Einwilligung jederzeit zu widerrufen. Die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung wird dadurch nicht berührt.
 
@@ -207,13 +207,13 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
     Sie können der Verarbeitung Ihrer personenbezogenen Daten für Zwecke der Werbung und Datenanalyse jederzeit widersprechen. Das Widerspruchsrecht können Sie kostenfrei ausüben. Über Ihren Werbewiderspruch können Sie uns unter folgenden Kontaktdaten informieren:
 
-    Julian-Max Maschke
-    c/o Block Services
-    Stuttgarter Str. 106
-    70736 Fellbach
-    Germany
-    E-Mail-Adresse: management@plugily.xyz  
-    **
+        Julian-Max Maschke
+        c/o Block Services
+        Stuttgarter Str. 106
+        70736 Fellbach
+        Germany
+        E-Mail-Adresse: management@plugily.xyz
+ 
 
 2.  **Recht auf Auskunft**  
     Sie haben das Recht, von uns eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden. Sofern dies der Fall ist, haben Sie ein Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten nach Art. 15 DS-GVO. Dies beinhaltet insbesondere die Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, die Herkunft ihrer Daten, sofern diese nicht direkt bei Ihnen erhoben wurden.

@@ -99,7 +99,7 @@ We will use the information we receive only for the purposes that are described 
 
 _**In Short:**  We may transfer, store, and process your information in countries other than your own._
 
-Our servers are located in. If you are accessing our Website from outside, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information (see "WILL YOUR INFORMATION BE SHARED WITH ANYONE?" above), in and other countries.
+Our servers are located in Germany. If you are accessing our Website from outside, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information (see "WILL YOUR INFORMATION BE SHARED WITH ANYONE?" above), in and other countries.
 
 If you are a resident in the European Economic Area, then these countries may not necessarily have data protection laws or other similar laws as comprehensive as those in your country. We will however take all necessary measures to protect your personal information in accordance with this privacy notice and applicable law.
 
