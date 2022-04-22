@@ -1,5 +1,4 @@
 module.exports = {
-    sidebarCollapsible: true,
     villagedefense: [
         {
             type: 'category',

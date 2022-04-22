@@ -175,12 +175,6 @@ module.exports = {
       "defaultMode": "dark",
       "disableSwitch": false,
       "respectPrefersColorScheme": true,
-      "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
-      }
     },
     announcementBar: {
       id: 'check_spigotmc', // Any value that will identify this message.
@@ -197,11 +191,20 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: true,
+          sidebarCollapsible: true,
           editUrl:
             'https://github.com/Plugily-Projects/plugily-projects.github.io/blob/documentation/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           routeBasePath: "/",
+          include: ['**/*.md', '**/*.mdx'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
         },
         blog: {
           showReadingTime: true,
