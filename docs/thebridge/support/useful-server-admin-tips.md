@@ -69,7 +69,7 @@ In overall it looks like this:
 **(3.)** Only if you use PAF for Bungee, you will need to install the [PAF Addon](https://www.spigotmc.org/resources/39751/) and follow the instruction of it.
 
 :::note
-Basically the party plugin on spigot works as a bridge beetween bungee - (spigot) - our minigame
+Basically the party plugin on spigot works as a bridge between bungee - (spigot) - our minigame
 :::
 
 **3. Profit**
@@ -95,4 +95,20 @@ Basically the party plugin on spigot works as a bridge beetween bungee - (spigot
 
 :::note
 When using **EssentialsX** make sure to set respawn-listener-priority to normal or low!
+:::
+
+## Quest objectives
+
+### **Required plugins:** [Quests](https://www.spigotmc.org/resources/quests.3711/)
+
+**1.** Install the [Plugily Quests Module](https://www.spigotmc.org/resources/plugily-quests-module.99817/)
+
+**2.** Place in _/plugins/Quests/modules_ and create a quest with custom objective:
+
+![](https://i.imgur.com/FFzavvE.png)
+
+**3. Profit**
+
+:::note
+DO NOT put module in _/plugins_ folder. Place in _/plugins/Quests/modules_ ONLY!
 :::
