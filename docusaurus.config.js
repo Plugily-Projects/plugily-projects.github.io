@@ -207,6 +207,10 @@ module.exports = {
           ],
         },
         blog: {
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Plugily Projects`,
+          },
           showReadingTime: true,
           editUrl:
             'https://github.com/Plugily-Projects/plugily-projects.github.io/blob/documentation/',
