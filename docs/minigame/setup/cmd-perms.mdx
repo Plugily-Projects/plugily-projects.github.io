@@ -1,0 +1,379 @@
+---
+id: cmdsandperms
+title: Commands and permissions
+sidebar_label: Commands and permissions
+toc_min_heading_level: 2
+toc_max_heading_level: 2
+---
+---
+import FileFetch from '@site/src/components/FileFetch';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Overview about all commands and permissions
+
+:::note
+
+\[required argument\] \(optional argument\)
+
+:::
+
+## Player Commands
+
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+| Command                                    | Permission                                                                  | Description                                                                                                                                                    |
+|--------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| /villagedefense arenas                     | `villagedefense.arenas`                                                     | Overview over all arenas in one GUI. Select one to join                                                                                                        |
+| /villagedefense join [maxplayers/arenaID]  | `villagedefense.join.%arenaID%` or `villagedefense.join.*` for (all arenas) | Joins specified arena by replacing `arenaID` with your arena name <br/><br/> `maxplayers` join arena with most players                                         |
+| | `villagedefense.fullgames` | Permission to join full arenas and kick other players |
+| /villagedefense randomjoin                 | `villagedefense.join.*` to access all arenas                                | Joins a random not started arena                                                                                                                               |
+| /villagedefense top [statistic]            |                                                                             | Shows top 10 users from requested statistic                                                                                                                    |
+| /villagedefense stats (online player name) |                                                                             | Shows your stats or from the requested player                                                                                                                  |
+| /villagedefense leave                      |                                                                             | Quits current game. Teleports to end location or if bungee enabled to Lobbyserver you configured You can disable game quit in `config.yml@Block.In-Game.Leave` |
+| /villagedefense selectkit                  | `villagedefense.command.selectkit`                                          | Change kit while being in game                                                                                                                                 |
+
+</TabItem>
+<TabItem value="buildbattle">
+
+| Command                                 | Permission                                                            | Description                                                                                                                                                    |
+|-----------------------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| /buildbattle arenas                     | `buildbattle.arenas`                                                  | Overview over all arenas in one GUI. Select one to join                                                                                                        |
+| /buildbattle join [maxplayers/arenaID] (solo/team/gtb) | `buildbattle.join.%arenaID%` or `buildbattle.join.*` for (all arenas) | Joins specified arena by replacing `arenaID` with your arena name <br/><br/> `maxplayers` join arena with most players                                         |
+| | `buildbattle.fullgames` | Permission to join full arenas and kick other players |
+| /buildbattle randomjoin (solo/team/gtb) | `buildbattle.join.*` to access all arenas                             | Joins a random not started arena                                                                                                                               |
+| /buildbattle top [statistic]            |                                                                       | Shows top 10 users from requested statistic                                                                                                                    |
+| /buildbattle stats (online player name) |                                                                       | Shows your stats or from the requested player                                                                                                                  |
+| /buildbattle leave                      |                                                                       | Quits current game. Teleports to end location or if bungee enabled to Lobbyserver you configured You can disable game quit in `config.yml@Block.In-Game.Leave` |
+| /buildbattle guess [theme]              |                                                                       | Only works on GTB mode - Can be useful for bungee handled chat servers                                                                                         |
+| /buildbattle selectplot                 | `buildbattle.command.selectplot`                                      | Only works on TEAM mode - Select the plot you want to join                                                                                                     |
+
+</TabItem>
+<TabItem value="murdermystery">
+
+| Command                                   | Permission                                                                | Description                                                                                                                                                    |
+|-------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| /murdermystery arenas                     | `murdermystery.arenas`                                                    | Overview over all arenas in one GUI. Select one to join                                                                                                        |
+| /murdermystery join [maxplayers/arenaID]  | `murdermystery.join.%arenaID%` or `murdermystery.join.*` for (all arenas) | Joins specified arena by replacing `arenaID` with your arena name <br/><br/> `maxplayers` join arena with most players                                         |
+| | `murdermystery.fullgames` | Permission to join full arenas and kick other players |
+| /murdermystery randomjoin                 | `murdermystery.join.*` to access all arenas                               | Joins a random not started arena                                                                                                                               |
+| /murdermystery top [statistic]            |                                                                           | Shows top 10 users from requested statistic                                                                                                                    |
+| /murdermystery stats (online player name) |                                                                           | Shows your stats or from the requested player                                                                                                                  |
+| /murdermystery leave                      |                                                                           | Quits current game. Teleports to end location or if bungee enabled to Lobbyserver you configured You can disable game quit in `config.yml@Block.In-Game.Leave` |
+| /murdermystery selectrole                 | `murdermystery.command.roleselector`                                      | Open GUI to select a role with rolepass                                                                                                     |
+
+### Bow trails
+
+:::note
+[List with particles](https://minecraft.gamepedia.com/Particles)
+:::
+
+#### Which particles/trails are inside the plugin?
+You can use all particles that are on your minecraft version as we are importing the particles of the server version that is running
+
+#### How it works?
+For all `trails` a player has permissions to, a `trail` is **randomly** picked and displayed.
+If the player has no access to any trail, it _will not display any trail_.
+
+#### What are the permissions for trails?
+`murdermystery.trails.<lowercased_particle_name>`
+:::tip
+Example you want to give the heart particle to your players.
+
+Particle name: **HEART** -> lowercased: **heart** -> Permission: **`murdermystery.trails.heart`**
+:::
+
+### Corpses last words and their permissions
+
+:::important
+Since version 1.7.5 you can add as many last words + permissions as you want.
+:::
+
+#### How to add new ones?
+```yml
+Last-Words:
+'default':
+Message: "&fPlease respawn :("
+'meme':
+Message: "&fDespacito 2 is confirmed by God"
+Permission: "murdermystery.lastwords.meme"
+'rage':
+Message: "&fWHY YOU KILLED ME?!!?"
+Permission: "murdermystery.lastwords.rage"
+'pro':
+Message: "&fIt was lagging..."
+Permission: "murdermystery.lastwords.pro"
+'hacker':
+Message: "Turn off your hacks..."
+Permission: "murdermystery.lastwords.hacker"
+// highlight-start
+###HOW TO ADD A NEW ONE
+'newLastWord':
+Message: "Awesome new last word"
+Permission: "murdermystery.lastwords.nicenewpermission"
+// highlight-end
+```
+#### How it works?
+For all `last words` a player has permissions to, a `last word` is **randomly** picked and displayed.
+If the player has no access to any last word, either the last word with **no permission** (priority) or the **first one in the list** will be picked out (fallback)
+
+
+</TabItem>
+<TabItem value="thebridge">
+
+| Command                               | Permission                                                        | Description                                                                                                                                                    |
+|---------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| /thebridge arenas                     | `thebridge.arenas`                                                | Overview over all arenas in one GUI. Select one to join                                                                                                        |
+| /thebridge join [maxplayers/arenaID]  | `thebridge.join.%arenaID%` or `thebridge.join.*` for (all arenas) | Joins specified arena by replacing `arenaID` with your arena name <br/><br/> `maxplayers` join arena with most players                                         |
+| | `thebridge.fullgames` | Permission to join full arenas and kick other players |
+| /thebridge randomjoin                 | `thebridge.join.*` to access all arenas                           | Joins a random not started arena                                                                                                                               |
+| /thebridge top [statistic]            |                                                                   | Shows top 10 users from requested statistic                                                                                                                    |
+| /thebridge stats (online player name) |                                                                   | Shows your stats or from the requested player                                                                                                                  |
+| /thebridge leave                      |                                                                   | Quits current game. Teleports to end location or if bungee enabled to Lobbyserver you configured You can disable game quit in `config.yml@Block.In-Game.Leave` |
+| /thebridge selectkit                  | `thebridge.command.selectkit`                                     | Change kit while being in game                                                                                                                                 |
+| /thebridge selectbase            | `thebridge.command.selectbase`                              | Change base while being on lobby                            |
+
+</TabItem>
+</Tabs>
+
+## Admin commands
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+    values={[
+      {label: 'VillageDefense', value: 'villagedefense',},
+      {label: 'BuildBattle', value: 'buildbattle',},
+      {label: 'MurderMystery', value: 'murdermystery',},
+      {label: 'TheBridge', value: 'thebridge',},
+    ]}>
+<TabItem value="villagedefense">
+
+:::tip
+You can use `villagedefense.admin.*` permission to give all admin commands permission
+:::
+
+| Command                                                                         | Permission                                                           | Description                                                                     | Valid excecutors                                 |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------|
+|                                                                                 | `villagedefense.updatenotify`                                        | Notifies about plugin update on join                                            |                                                  |
+|                                                                                 | `villagedefense.command.override`                                    | Allows to use every command while being in-game                                 |                                                  |
+|                                                                                 | `villagedefense.admin.sign.create` `villagedefense.admin.sign.break` | You can create or break signs with those permissions                            |                                                  |
+| /villagedefenseadmin setup (create/edit) (arenaID)                              | `villagedefense.admin.setup`                                         | Create and edit arenas                                                          | Player                                           |
+| /villagedefenseadmin list                                                       | `villagedefense.admin.list`                                          | Prints list of available arenas                                                 | Player/Console                                   |
+| /villagedefenseadmin delete \[arena\]                                           | `villagedefense.admin.delete`                                        | Deletes specified arena                                                         | Player                                           |
+| /villagedefenseadmin forcestart                                                 | `villagedefense.admin.forcestart`                                    | Force starts game you're in                                                     | Player                                           |
+| /villagedefenseadmin reload                                                     | `villagedefense.admin.reload`                                        | Reloads all game instances **they will be stopped.  Usage highly discouraged!** | Player/Console                                   |
+| /villagedefenseadmin stop                                                       | `villagedefense.admin.stopgame`                                      | Stops game you're playing                                                       | Player                                           |
+| /villagedefenseadmin statistic \[adjust/set\] \[statistic\] \[amount\] (player) | `villagedefense.admin.statistic`                                     | Change statistics for yourself or target player                                 | Player/Console                                   |
+| /villagedefenseadmin leaderboard \[add/list/remove\] \[statistic\] \[amount\]   | `villagedefense.admin.leaderboard.manage`                            | Manage Leaderboard-Holograms                                                    | Player                                           |
+| /villagedefenseadmin placeholders (external)                                    | `villagedefense.admin.placeholders`                                  | Shows list with all loaded placeholders                                         | Player                                           |
+| /villagedefenseadmin spychat                                                    | `villagedefense.admin.spychat`                                       | Toggles all arenas chat visibility \(multi-arena feature only\)                 | Player                                           |
+| /villagedefenseadmin tp \[arena\] \[location type\]                             | `villagedefense.admin.teleport`                                      | Teleports to specified arena location **Location types:** START, END, LOBBY     | Player                                           |
+| /villagedefenseadmin respawn \(player\)                                         | `villagedefense.admin.respawn villagedefense.admin.respawn.others`   | Respawn you/specified player in your arena                                      | Player                                           |
+| /villagedefenseadmin clear \[mobtype\]                                          | `villagedefense.admin.clear`                                         | Clears specified mobs in your game                                              | Player                                           |
+| /villagedefenseadmin addorbs \[amount\] \(player\)                              | `villagedefense.admin.addorbs villagedefense.admin.addorbs.others`   | Adds orbs \(game currency\) to you/specified player                             | Player/Console when player argument is specified |
+| /villagedefenseadmin setwave \[number\]                                         | `villagedefense.admin.setwave`                                       | Sets wave of game                                                               | Player                                           |
+| /villagedefenseadmin setprice \[amount\]                                        | `villagedefense.admin.setprice`                                      | Sets price of holding item \(use this for shop otherwise item won't work\)      | Player                                           |
+
+</TabItem>
+<TabItem value="buildbattle">
+
+:::tip
+You can use `buildbattle.admin.*` permission to give all admin commands permission
+:::
+
+| Command                                                                      | Permission                                                     | Description                                                                                                        | Valid excecutors |
+|------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------|
+|                                                                              | `buildbattle.updatenotify`                                     | Notifies about plugin update on join                                                                               |                  |
+|                                                                              | `buildbattle.command.override`                                 | Allows to use every command while being in-game                                                                    |                  |
+|                                                                              | `buildbattle.admin.sign.create` `buildbattle.admin.sign.break` | You can create or break signs with those permissions                                                               |                  |
+| /buildbattleadmin setup (create/edit) (arenaID)                              | `buildbattle.admin.setup`                                      | Create and edit arenas                                                                                             | Player           |
+| /buildbattleadmin list                                                       | `buildbattle.admin.list`                                       | Prints list of available arenas                                                                                    | Player/Console   |
+| /buildbattleadmin delete \[arena\]                                           | `buildbattle.admin.delete`                                     | Deletes specified arena                                                                                            | Player           |
+| /buildbattleadmin forcestart \(theme\)                                       | `buildbattle.admin.forcestart`                                 | Force starts game you're in When `theme` argument is typed arena starts with predefined theme without Voting phase | Player           |
+| /buildbattleadmin reload                                                     | `buildbattle.admin.reload`                                     | Reloads all game instances **they will be stopped.  Usage highly discouraged!**                                    | Player/Console   |
+| /buildbattleadmin stop                                                       | `buildbattle.admin.stopgame`                                   | Stops game you're playing                                                                                          | Player           |
+| /buildbattleadmin statistic \[adjust/set\] \[statistic\] \[amount\] (player) | `buildbattle.admin.statistic`                                  | Change statistics for yourself or target player                                                                    | Player/Console   |
+| /buildbattleadmin leaderboard \[add/list/remove\] \[statistic\] \[amount\]   | `buildbattle.admin.leaderboard.manage`                         | Manage Leaderboard-Holograms                                                                                       | Player           |
+| /buildbattleadmin placeholders (external)                                    | `buildbattle.admin.placeholders`                               | Shows list with all loaded placeholders                                                                            | Player           |
+| /buildbattleadmin spychat                                                    | `buildbattle.admin.spychat`                                    | Toggles all arenas chat visibility \(multi-arena feature only\)                                                    | Player           |
+| /buildbattleadmin tp \[arena\] \[location type\]                             | `buildbattle.admin.teleport`                                   | Teleports to specified arena location **Location types:** START, END, LOBBY                                        | Player           |
+| /buildbattleadmin locwand                                                    | `buildbattle.admin.locwand`                                    | Get location wand to setup locations                                                                               | Player           |
+| /buildbattleadmin addplot \[arena\]                                          | `buildbattle.admin.addplot`                                    | Adds new plot to the arena                                                                                         | Player           |
+| /buildbattleadmin removeplot \[arena\] \[plot ID\]                           | `buildbattle.admin.removeplot`                                 | Remove target plot from the arena                                                                                  | Player           |
+| /buildbattleadmin addnpc                                                     | `buildbattle.admin.addnpc`                                     | Spawn floor changer NPC at your location **Requires Citizens**                                                     | Player           |
+| /buildbattleadmin settheme \[theme\]                                         | `buildbattle.admin.settheme`                                   | Set new theme of arena **Works only when game started, and for 20 seconds after start**                            | Player           |
+
+</TabItem>
+<TabItem value="murdermystery">
+
+:::tip
+You can use `murdermystery.admin.*` permission to give all admin commands permission
+:::
+
+| Command                                                                        | Permission                                                         | Description                                                                     | Valid excecutors |
+|--------------------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+|                                                                                | `murdermystery.updatenotify`                                       | Notifies about plugin update on join                                            |                  |
+|                                                                                | `murdermystery.command.override`                                   | Allows to use every command while being in-game                                 |                  |
+|                                                                                | `murdermystery.admin.sign.create` `murdermystery.admin.sign.break` | You can create or break signs with those permissions                            |                  |
+| /murdermysteryadmin setup (create/edit) (arenaID)                              | `murdermystery.admin.setup`                                        | Create and edit arenas                                                          | Player           |
+| /murdermysteryadmin list                                                       | `murdermystery.admin.list`                                         | Prints list of available arenas                                                 | Player/Console   |
+| /murdermysteryadmin delete \[arena\]                                           | `murdermystery.admin.delete`                                       | Deletes specified arena                                                         | Player           |
+| /murdermysteryadmin forcestart                                                 | `murdermystery.admin.forcestart`                                   | Force starts game you're in                                                     | Player           |
+| /murdermysteryadmin reload                                                     | `murdermystery.admin.reload`                                       | Reloads all game instances **they will be stopped.  Usage highly discouraged!** | Player/Console   |
+| /murdermysteryadmin stop                                                       | `murdermystery.admin.stopgame`                                     | Stops game you're playing                                                       | Player           |
+| /murdermysteryadmin statistic \[adjust/set\] \[statistic\] \[amount\] (player) | `murdermystery.admin.statistic`                                    | Change statistics for yourself or target player                                 | Player/Console   |
+| /murdermysteryadmin leaderboard \[add/list/remove\] \[statistic\] \[amount\]   | `murdermystery.admin.leaderboard.manage`                           | Manage Leaderboard-Holograms                                                    | Player           |
+| /murdermysteryadmin placeholders (external)                                    | `murdermystery.admin.placeholders`                                 | Shows list with all loaded placeholders                                         | Player           |
+| /murdermysteryadmin spychat                                                    | `murdermystery.admin.spychat`                                      | Toggles all arenas chat visibility \(multi-arena feature only\)                 | Player           |
+| /murdermysteryadmin tp \[arena\] \[location type\]                             | `murdermystery.admin.teleport`                                     | Teleports to specified arena location **Location types:** START, END, LOBBY     | Player           |
+| /murdermysteryadmin removeblock                                                | `murdermystery.admin.removeblock`                                  | Removes the special block you are looking at                                    | Player           |
+| /murdermysteryadmin rolepass \[add/set/remove\] \[role\] \[amount\] (player)   | `murdermystery.admin.rolepass`                                     | Add or remove rolepass to be MURDERER/DETECTIVE                                 | Player/Console   |
+
+</TabItem>
+<TabItem value="thebridge">
+
+:::tip
+You can use `murdermystery.admin.*` permission to give all admin commands permission
+:::
+
+| Command                                                                        | Permission                                                         | Description                                                                     | Valid excecutors |
+|--------------------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------|
+|                                                                                | `thebridge.updatenotify`                                       | Notifies about plugin update on join                                            |                  |
+|                                                                                | `thebridge.command.override`                                   | Allows to use every command while being in-game                                 |                  |
+|                                                                                | `thebridge.admin.sign.create` `thebridge.admin.sign.break` | You can create or break signs with those permissions                            |                  |
+| /thebridgeadmin setup (create/edit) (arenaID)                              | `thebridge.admin.setup`                                        | Create and edit arenas                                                          | Player           |
+| /thebridgeadmin list                                                       | `thebridge.admin.list`                                         | Prints list of available arenas                                                 | Player/Console   |
+| /thebridgeadmin delete \[arena\]                                           | `thebridge.admin.delete`                                       | Deletes specified arena                                                         | Player           |
+| /thebridgeadmin forcestart                                                 | `thebridge.admin.forcestart`                                   | Force starts game you're in                                                     | Player           |
+| /thebridgeadmin reload                                                     | `thebridge.admin.reload`                                       | Reloads all game instances **they will be stopped.  Usage highly discouraged!** | Player/Console   |
+| /thebridgeadmin stop                                                       | `thebridge.admin.stopgame`                                     | Stops game you're playing                                                       | Player           |
+| /thebridgeadmin statistic \[adjust/set\] \[statistic\] \[amount\] (player) | `thebridge.admin.statistic`                                    | Change statistics for yourself or target player                                 | Player/Console   |
+| /thebridgeadmin leaderboard \[add/list/remove\] \[statistic\] \[amount\]   | `thebridge.admin.leaderboard.manage`                           | Manage Leaderboard-Holograms                                                    | Player           |
+| /thebridgeadmin placeholders (external)                                    | `thebridge.admin.placeholders`                                 | Shows list with all loaded placeholders                                         | Player           |
+| /thebridgeadmin spychat                                                    | `thebridge.admin.spychat`                                      | Toggles all arenas chat visibility \(multi-arena feature only\)                 | Player           |
+| /thebridgeadmin tp \[arena\] \[location type\]                             | `thebridge.admin.teleport`                                     | Teleports to specified arena location **Location types:** START, END, LOBBY     | Player           |
+| /thebridgeadmin locwand                                                    | `thebridge.admin.locwand`                                      | Get location wand to setup locations                                            | Player           |
+
+</TabItem>
+</Tabs>
+
+## Kit permissions
+
+Every kit has its own permission node to access it. Even if it's level kit, you can still unlock it getting its
+permission.
+
+**Example:**
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+* Archer kit permission - **`villagedefense.kit.archer`**
+* Tornado kit permission - **`villagedefense.kit.tornado`**
+
+:::note
+**Info!** **Locked kits** also unlocks with `"villagedefense.kits.locked"` permissions and **leveled kits** are unlocked too when
+certain level is reached.
+:::
+
+</TabItem>
+<TabItem value="buildbattle">
+
+No kits currently!
+
+</TabItem>
+<TabItem value="murdermystery">
+
+No kits currently!
+
+</TabItem>
+<TabItem value="thebridge">
+
+* Archer kit permission - **`thebridge.kit.archer`**
+* MediumTank kit permission - **`thebridge.kit.mediumtank`**
+
+:::note
+**Info!** **Locked kits** also unlocks with `"thebridge.kits.locked"` permissions and **leveled kits** are unlocked too when
+certain level is reached.
+:::
+
+</TabItem>
+</Tabs>
+
+## Custom permissions
+
+Custom permissions are used for giving your players more boosts in game.
+
+:::danger
+Using dots `.` in custom permissions **will not work and will break permission**, don't use them!
+:::
+
+Custom permissions can be found in **permissions.yml**:
+
+### Example for EXP Boost
+```yml
+Exp-Boost:
+  # Increase exp by 10 percent
+  exp-boost-10: 10
+  exp-boost-50: 50
+  # Increase exp by 300 percent
+  admin-boost: 300
+```
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+**You will need to add the permission `villagedefense.exp-boost-10` for the player to get 10 percent increase!**
+:::note
+**Permissions can be combined!** Giving player permission **`villagedefense.exp-boost-10`** and **`villagedefense.exp-boost-50`** will receive **60%** more orbs on the pickup!
+:::
+
+</TabItem>
+<TabItem value="buildbattle">
+
+**You will need to add the permission `buildbattle.exp-boost-10` for the player to get 10 percent increase!**
+:::note
+**Permissions can be combined!** Giving player permission **`buildbattle.exp-boost-10`** and **`buildbattle.exp-boost-50`** will receive **60%** more orbs on the pickup!
+:::
+
+</TabItem>
+<TabItem value="murdermystery">
+
+**You will need to add the permission `murdermystery.exp-boost-10` for the player to get 10 percent increase!**
+:::note
+**Permissions can be combined!** Giving player permission **`murdermystery.exp-boost-10`** and **`murdermystery.exp-boost-50`** will receive **60%** more orbs on the pickup!
+:::
+
+</TabItem>
+<TabItem value="thebridge">
+
+**You will need to add the permission `thebridge.exp-boost-10` for the player to get 10 percent increase!**
+:::note
+**Permissions can be combined!** Giving player permission **`thebridge.exp-boost-10`** and **`thebridge.exp-boost-50`** will receive **60%** more orbs on the pickup!
+:::
+
+</TabItem>
+</Tabs>
+
+:::caution Be aware of low percent values
+Remember that 10% more exp are actually nothing because it's e.g. 10 exp + **(1) only 10% of this value more** so you won't see any significant increase, use higher values too see the difference if you don't trust this ;)
+:::
+

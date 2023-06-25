@@ -1,0 +1,314 @@
+---
+id: simple-setup
+title: Simple Setup
+sidebar_label: Simple Setup
+toc_min_heading_level: 2
+toc_max_heading_level: 2
+---
+---
+import FileFetch from '@site/src/components/FileFetch';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Fast way to set up your arena
+
+## Prepare
+
+:::info Recommended
+Make sure to create an **extra world** for the maps you want to use for this plugin as it determines compatibility issues with other plugins.
+:::
+
+Check if you got all of these points for a complete arena setup
+
+* Map for game and lobby \(can be on the same world\)
+* \[Multiworld\] If you want you can set up signs, therefore just place sign\(s\) on the location you want
+
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+* The game can contain an secret well
+    * See [How can I set up secret well?](simple-setup#how-can-i-set-up-secret-well)
+    * See [How can I set up the shop?](simple-setup#how-can-i-set-up-the-shop)
+
+</TabItem>
+<TabItem value="buildbattle">
+
+* The game contains different modes
+    * SOLO
+        * Make sure to have some plots where is enough place to build for one person
+    * TEAM
+        * Make sure to have some plots where is enough place to build for two persons
+    * GUESS THE BUILD
+        * You need as many plots as the maximum amount of players
+        * Make sure that these plots have enough free place where players can view the builder when he builds
+
+</TabItem>
+<TabItem value="murdermystery">
+
+* The game can contain special blocks
+    * You can set the following blocks on your map
+        * Cauldron
+        * Enchanting table
+
+</TabItem>
+<TabItem value="thebridge">
+
+* The game contains different modes
+    * POINTS
+        * This mode means that the goal of the game is to reach x amount of points by jumping into the opponent base portal
+    * HEARTS
+        * This mode means that the goal of the game is to be the last team living. After x amount of points the base will be out and players die.
+* \[Base Count\] You can have up to 16 bases without problems and player limitation
+
+</TabItem>
+</Tabs>
+
+## Create instance
+
+#### 1. Start with the creation of your arena instance with the following command: {#create-instance-step-1}
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+```text
+/villagedefenseadmin setup create <arenaname>
+```
+
+</TabItem>
+<TabItem value="buildbattle">
+
+```text
+/buildbattleadmin setup create <arenaname>
+```
+
+</TabItem>
+<TabItem value="murdermystery">
+
+```text
+/murdermysteryadmin setup create <arenaname>
+```
+
+</TabItem>
+<TabItem value="thebridge">
+
+```text
+/thebridgeadmin setup create <arenaname>
+```
+
+</TabItem>
+</Tabs>
+
+
+
+#### 2. After creating the instance you can start editing it with the next command: {#create-instance-step-2}
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+```text
+/villagedefenseadmin setup edit <arenaname>
+```
+
+</TabItem>
+<TabItem value="buildbattle">
+
+```text
+/buildbattleadmin setup edit <arenaname>
+```
+
+</TabItem>
+<TabItem value="murdermystery">
+
+```text
+/murdermysteryadmin setup edit <arenaname>
+```
+
+</TabItem>
+<TabItem value="thebridge">
+
+```text
+/thebridgeadmin setup edit <arenaname>
+```
+
+</TabItem>
+</Tabs>
+
+#### 3. Now we are at a very simple stage were you just need to follow the instructions on menu. After you finished an instruction you may proceed to the next one by typing the command again \(and repeat until finished\): {#create-instance-step-3}
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+```text
+/villagedefenseadmin setup edit <arenaname>
+```
+
+</TabItem>
+<TabItem value="buildbattle">
+
+```text
+/buildbattleadmin setup edit <arenaname>
+```
+
+</TabItem>
+<TabItem value="murdermystery">
+
+```text
+/murdermysteryadmin setup edit <arenaname>
+```
+
+</TabItem>
+<TabItem value="thebridge">
+
+```text
+/thebridgeadmin setup edit <arenaname>
+```
+
+</TabItem>
+</Tabs>
+
+#### 4. After you have set all up you enter the command the last time and click on the rocket to validate your instance. It will finish the instance and you are ready to go! {#create-instance-step-4}
+
+## Bungeecord Mode
+
+Follow the setup above. After you are done with all arenas you can simply enable Bungeemode on the [config.yml](../support/files#configyml). If it does not already exists it will create a file called [bungee.yml](../support/plugin-files-explained.md#bungee-yml) after restart. On that file you can edit some values that are explained [here](../support/plugin-files-explained.md#bungee-yml).
+
+## Additional Setup Information
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+### How can I set up secret well?
+
+You need to build a secret well to throw out rotten flesh there. If players throw there enough rotten flesh they will get an extra heart.
+
+#### **How it should be created:**
+
+![](https://i.imgur.com/SAoUarT.png)
+
+\(2x2 hoppers and water above them\)
+
+:::note
+You can also create bigger secret well's
+:::
+
+#### **Number of needed rotten flesh is based on a simple algorithm:**
+
+**First heart:** 50 rotten flesh needed
+
+**Next hearts:** bonus hearts \* in-game players size + 10
+
+<br></br>
+
+### How can I set up the shop?
+
+It is nothing easier than just placing a chest \(double chest also working\) and adding the items you want to that chest.
+
+Make sure to give the item a price called orbs with the following command before you add it to the chest:
+
+```text
+/vda setprice <orbs>
+```
+
+:::note
+If you want empty spaces on your chest it is required to add **REDSTONE\_BLOCK** to the chest
+:::
+
+Do not forget to register your chest after editing it. Therefore you type in
+
+```text
+/vd <arenaname> edit
+```
+
+and choose the item to add an chest shop while looking at your shop. After that you can go on with your setup or validate it at the end if you are done with the setup.
+
+
+### How power-ups work?
+
+#### **There are few types of them right now:**
+
+* Map clean power-up \(Cleans map from all zombies that are spawned, not every zombie from the pool\)
+* Double damage power-up \(Every player gets Strength I potion for 15 seconds by default\)
+* Healing power-up \(Every player gets Regeneration I for 10 seconds by default\)
+* Golem raid power-up \(3 golems are spawned in the village by default\)
+* One shot one kill power-up \(Every zombie can be killed for one hit \(Strength 255\) for 15 seconds by default\)
+
+Every option and messages from these power-ups are configurable. Drop chance, time of power-up, disabling/enabling specific power-ups are configurable via **config.yml**. Messages are configurable via **language.yml**.
+
+### Special shop items
+
+There are few special shop items that you can put into the shop to enhance gameplay a bit.
+
+* **Entity items**
+* Spawn Wolf item Item for spawning wolves in game. It should be named 'Spawn Wolf' or like you've translated it in language.yml under `In-Game.Messages.Shop-Messages.Wolf-Item-Name`. It can be any item, **only display name of item will be checked while buying it!**
+* Spawn Golem item Item for spawning golems in game. It should be named 'Spawn Golem' or like you've translated it in language.yml under `In-Game.Messages.Shop-Messages.Golem-Item-Name`. It can be any item, **only display name of item will be checked while buying it!**
+* **Special kit items**
+* Soon
+
+</TabItem>
+<TabItem value="buildbattle">
+
+### How to setup plots?
+
+Make sure to only select the floor space including the first block on one of the bottom corners and go diagonal to the upper corner of the build plot.
+All space inside this cuboid will the builder be able to build and interact!
+
+</TabItem>
+<TabItem value="murdermystery">
+
+### How to setup per player murderer/detective?
+
+The value determines how much murderer/detectives will be in the arena. If you set it to `5` it will mean you get per `5` players **`one`** murderer/detective.
+
+:::note
+
+E.g. Means on a game with 20 players you will have 4 murderer/detectives.
+
+:::
+
+
+</TabItem>
+<TabItem value="thebridge">
+
+### How to setup cages?
+
+Make sure to only select the floor of the cage that is filled with material
+
+<br></br>
+
+### Where should I set the arena locations \(cuboid\)?
+
+Make sure that the arena locations include the whole game map, where players should be able to play the game. So it should include the bases, the line and some space so players can build on the line.
+
+</TabItem>
+</Tabs>

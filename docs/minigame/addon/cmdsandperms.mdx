@@ -1,0 +1,63 @@
+---
+id: cmdsandperms
+title: Addon - Commands and Permissions
+sidebar_label: Commands and Permissions
+---
+---
+Overview about enhancements commands and permissions
+
+
+:::info
+`[required argument] (optional argument)`
+:::
+
+### Commands and Permissions - achievements
+
+| Command                                                     | Permission                                     | Description                                                                   |
+|-------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------------------------------|
+| /PLUGINCOMMAND achievements list                                       | PLUGININDICATOR.achievements.command            | Shows list of unlocked achievements                                           |
+| /PLUGINCOMMAND achievements reload                                     | PLUGININDICATOR.achievements.command.reload     | Reloads achievements configuration                                            |
+| /PLUGINCOMMAND achievements create \[name\]                           | PLUGININDICATOR.achievements.command.create     | Creates new achievement                                                       |
+| /PLUGINCOMMAND achievements delete \[name\]                           | PLUGININDICATOR.achievements.command.delete     | Deletes existing achievement                                                  |
+| /PLUGINCOMMAND achievements edit \[name\]                             | PLUGININDICATOR.achievements.command.edit       | Edits existing achievement                                                    |
+| /PLUGINCOMMAND achievements commandgen \[player/console\] \[command\] | PLUGININDICATOR.achievements.command.commandgen | Create reward command for achievements **\(%player% placeholder supported\)** |
+
+### Replay module
+| Command                           | Permission                   | Description       |
+|-----------------------------------|------------------------------|-------------------|
+| /PLUGINCOMMANDreplay [random, random_waiting] | Recommend PLUGININDICATOR.join.*   | Joins a new round |
+
+
+### Commands and Permissions - customkits
+:::tip
+You can use `PLUGININDICATOR.customkits.*` permission to give all commands permission
+:::
+
+:::caution
+Works only on TheBridge and VillageDefense
+:::
+
+| Command                                                              | Permission                                   | Description                                                                                                   |
+|----------------------------------------------------------------------|----------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| /PLUGINCOMMAND customkits create \[kit\]                                       | PLUGININDICATOR.customkits.command.create     | Create new custom kit                                                                                         |
+| /PLUGINCOMMAND customkits edit \[kit\]                                         | PLUGININDICATOR.customkits.command.edit       | Edit already existing custom kit                                                                              |
+| /PLUGINCOMMAND customkits delete \[kit\]                                       | PLUGININDICATOR.customkits.command.delete     | Delete existing custom kit                                                                                    |
+| /PLUGINCOMMAND customkits list                                                 | PLUGININDICATOR.customkits.command.list       | Open inventory will all loaded custom kits                                                                    |
+| /PLUGINCOMMAND customkits reload                                               | PLUGININDICATOR.customkits.command.reload     | Reload configuration and re-register custom kits to update them                                               |
+| /PLUGINCOMMAND customkits potiongen \[potion type\] \[duration\] \[amplifier\] | PLUGININDICATOR.customkits.command.potiongen   | Create custom potion effect for kits **\(effects will be applied to player not given into their inventory\)** |
+| /PLUGINCOMMAND customkits mobgen \[iron\_golem/wolf\] \[amount of mobs\]       | PLUGININDICATOR.customkits.command.mobgen     | Create custom mobs for kits **\(they will be spawned at the start/per wave\)**                                |
+| /PLUGINCOMMAND customkits commandgen \[player/console\] \[command\]            | PLUGININDICATOR.customkits.command.commandgen | Create command for kits **\(%player% placeholder supported\)**                                                |
+
+
+### Commands and Permissions - extended shops
+
+:::caution
+Works only on VillageDefense
+:::
+
+| Commands                                     | Permission                                  | Description                                    |
+|----------------------------------------------|---------------------------------------------|------------------------------------------------|
+| /PLUGINCOMMAND extendedshops edit \[category\]  \[arena\]    | PLUGININDICATOR.extendedshops.command.edit   | Opens GUI editor to edit target extended shop. |
+| /PLUGINCOMMAND extendedshops create \[category\]  \[arena\]  | PLUGININDICATOR.extendedshops.create.edit    | Creates new extended shop for the category     |
+| /PLUGINCOMMAND extendedshops delete \[category\]  \[arena\]  | PLUGININDICATOR.extendedshops.command.delete | Deletes extended shop of category              |
+
