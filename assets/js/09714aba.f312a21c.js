@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[5576],{8312:e=>{e.exports=JSON.parse('{"label":"minigame core","permalink":"/blog/tags/minigame-core","allTagsPath":"/blog/tags","count":1}')}}]);

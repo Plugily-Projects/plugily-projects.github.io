@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Next Generation - Minigame Core","permalink":"/blog/next-generation"},{"title":"Summerbreak 21","permalink":"/blog/summerbreak2021"},{"title":"Introducing our new Wiki","permalink":"/blog/new-wiki"}]}')}}]);
