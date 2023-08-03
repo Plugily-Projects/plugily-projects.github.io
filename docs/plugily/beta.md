@@ -14,11 +14,6 @@ The beta program is currently on hiatus as a new innovative and profitable progr
 | Participate in **beta program** and help us squashing bugs and other problems before final release! | Unlock access to cool betas and pre release versions of our software while being in **beta program**! | Participating in **beta program** allows you to impact on the development of our projects! |
 
 
-
-
-
-
-
 ## How can I join?
 :::info
 Join easily by using this discord invite: https://discord.gg/zJpyV9U
