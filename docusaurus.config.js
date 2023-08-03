@@ -104,9 +104,6 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: 'plugily/translate/',
-            type: 'docSidebar',
-            sidebarId: 'tutorials',
-            position: 'left',
             label: 'Translate',
             position: 'left',
           },
@@ -119,6 +116,8 @@ const config = {
             to: 'plugily/tutorial/',
             label: 'Tutorial',
             position: 'left',
+            type: 'docSidebar',
+            sidebarId: 'tutorials',
           },
           {
             to: 'plugily/feedback/',
