@@ -1,0 +1,119 @@
+---
+id: creatures
+title: Village Defense Creatures
+sidebar_label: Creatures
+---
+---
+import FileFetch from '@site/src/components/FileFetch';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Explained VillageDefense creatures.yml file.
+
+## Default File
+
+* [Latest creatures.yml](https://raw.githubusercontent.com/Plugily-Projects/Village_Defense/master/src/main/resources/creatures.yml)
+<FileFetch url="https://raw.githubusercontent.com/Plugily-Projects/Village_Defense/master/src/main/resources/creatures.yml"></FileFetch>
+
+## Work with the file
+
+:::info
+Only works on spigot version 1.9 and up!
+:::
+
+### Creatures.Village
+
+Here you can change the main entities which are in your village, e.g. Villager, Iron_Golem and Wolf.
+
+holiday_effects: Does the creatures get effects from holiday.yml configuration, e.g. pumpkin head on Halloween
+
+attributes: You can add attributes from https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html , e.g. speed
+
+drop_item: Which item should the creature drop if killed? e.g. BREAD
+
+### Creatures.Content
+
+Here you can add as many new zombies as you want and modify them.
+
+```yml
+GOLEM_BUSTER:
+  enabled: true/false # should it be enabled?
+  wave:
+    min: 8 # the wave the creatures get unlocked/spawned
+    max: 0 # the wave the creatures get locked/not spawned anymore e.g = 8 means on wave 9+ this creatures won't spawn
+  priority_type: IRON_GOLEM # Can be ANY, PLAYER, VILLAGER, IRON_GOLEM, WOLF which the creatures mainly targets
+  explosive_hit: true # On hit the target spawns tnt and get removed
+  entity_type: ZOMBIE # Can be any of https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/package-summary.html, e.g. Skeleton
+  baby: false # should the creature be a small one
+  breed: false # can the creature grow up
+  age: 0 # set a age to the target
+  age_lock: false #  prevent the animal from maturing or getting ready for mating
+  exp: 15 # How much exp/orbs should be dropped
+  holiday_effects: true # Does the creatures get effects from holiday.yml configuration, e.g. pumpkin head on Halloween
+  rates: # Configuration of how much creatures of this type should be present
+    spawn: # How often the enemies will be spawned?
+      '1':
+        phase: 5 # ZOMBIE_SPAWN_COUNTER / Value that describes progress of zombies spawning in wave in arena.
+        wave_higher: 0 # range the rule e.g. all waves higher 0
+        wave_lower: 0 # range the rule e.g all waves lower 0
+        spawn_lower: 0 # range the rule e.g. Zombie Limit reached, lower original zombie value
+        rate: 1 # Rate to other creatures spawned
+        division: 3 # Divide the rate
+        reduce: 0 # Reduces the rate/division
+      '2': # second rule for how often the enemies should be spawned
+        phase: 0
+        wave_higher: 6
+        wave_lower: 0
+        spawn_lower: 0
+        rate: 1
+        division: 8
+    amount: # Get the final amount of enemies to spawn
+      '1':
+        phase: 5
+        wave_higher: 0
+        wave_lower: 0
+        spawn_lower: 0
+        rate: 1
+        division: 4
+        reduce: 0
+      '2':
+        phase: 0
+        wave_higher: 6
+        wave_lower: 0
+        spawn_lower: 0
+        rate: 1
+        division: 1
+        reduce: 4
+    check: # Check if the enemies can be spawned on this phase
+      '1':
+        phase: 5
+        wave_higher: 0
+        wave_lower: 0
+        spawn_lower: 0
+      '2':
+        phase: 0
+        wave_higher: 6
+        wave_lower: 0
+        spawn_lower: 0
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+  attributes:
+    GENERIC_MOVEMENT_SPEED: 0.2
+    GENERIC_FOLLOW_RANGE: 200.0
+  equipment: # reference armour
+    helmet:
+      item: TNT
+      drop_chance: 0 # 0 = no chance, 0.75 = 75% chance it gets dropped
+    chestplate:
+      item: IRON_CHESTPLATE
+      drop_chance: 0.1
+    leggings:
+      item: IRON_LEGGINGS
+      drop_chance: 0.3
+    boots:
+      item: IRON_BOOTS
+      drop_chance: 0.2
+    hand: # item in hand
+      item: TNT
+      drop_chance: 0
+  drop_item: null # e.g. BREAD
+```

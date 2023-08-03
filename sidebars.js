@@ -42,7 +42,7 @@ const sidebars = {
                         {
                             type: 'link',
                             label: 'Maven', // The label that should be displayed (string).
-                            href: 'https://maven.plugily.xyz/plugily/projects/' // The target URL (string).
+                            href: 'https://maven.plugily.xyz/#/releases/plugily/projects' // The target URL (string).
                         },
                     ],
                     Support: [
@@ -60,6 +60,26 @@ const sidebars = {
                         'minigame/addon/cmdsandperms',
                         'minigame/addon/files',
                         'minigame/addon/faq',
+                    ],
+                }
+            ]
+        }
+    ],
+    tutorials: [
+        {
+            type: 'category',
+            label: 'Tutorial',
+            items: [
+                'plugily/tutorial',
+                {
+                    General: [
+                        'plugily/tutorial/presetup',
+                    ],
+                    Specific: [
+                        'plugily/tutorial/villagedefense',
+                        'plugily/tutorial/buildbattle',
+                        'plugily/tutorial/murdermystery',
+                        'plugily/tutorial/thebridge',
                     ],
                 }
             ]

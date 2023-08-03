@@ -14,7 +14,7 @@ export default class YoutubeEmbed extends React.Component {
             <div className={styles.videoContainer}>
                 <LiteYouTubeEmbed
                     id={this.props.source}
-                    params="autoplay=1&autohide=1&showinfo=0&rel=0" {this.props.params}
+                    params={this.props.params}
                     title={this.props.title}
                     poster="maxresdefault"
                     webp

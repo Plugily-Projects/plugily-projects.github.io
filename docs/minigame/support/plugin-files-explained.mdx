@@ -322,6 +322,18 @@ Set your own permission to boost specific groups or players.
 </TabItem>
 </Tabs>
 
+:::note What is the naming of the permission?
+
+e.g. for "Exp-Boos" its exp-boost-10
+
+:::
+:::warning Why do I have as OP not the permission?
+
+OPs and players with * permission are not allowed to have permissions from permission.yml as it would result in bad game experience as you would get for example unlimited exp.
+This got implemented by feedback of our users!
+
+:::
+
 ### powerups.yml
 
 Set up different powerups to make the minigame more fun. You can add as much as you want! Make sure to enable powerups on your config.yml
@@ -358,6 +370,39 @@ Set up different powerups to make the minigame more fun. You can add as much as 
 
 </TabItem>
 </Tabs>
+
+## Additional plugin specific files
+
+<Tabs groupId="minigame" defaultValue="villagedefense" queryString
+      values={[
+          {label: 'VillageDefense', value: 'villagedefense',},
+          {label: 'BuildBattle', value: 'buildbattle',},
+          {label: 'MurderMystery', value: 'murdermystery',},
+          {label: 'TheBridge', value: 'thebridge',},
+      ]}>
+<TabItem value="villagedefense">
+
+- [Creatures](files/creatures)
+
+</TabItem>
+<TabItem value="buildbattle">
+
+- [Creatures](files/creatures)
+
+</TabItem>
+<TabItem value="murdermystery">
+
+- [Creatures](files/creatures)
+
+</TabItem>
+<TabItem value="thebridge">
+
+- [Creatures](files/creatures)
+
+</TabItem>
+</Tabs>
+
+
 
 ## Additional content
 
@@ -460,7 +505,7 @@ Type the following command to see a list of available locales!
 
 ## Stats storage types
 
-### **Current stats storage types for player statistics:**
+#### **Current stats storage types for player statistics:**
 
 * Flat file \(.yml\) - enabled by default
 * MySQL \(database\) - can be enabled in config.yml \(see [mysql.yml](files#mysqlyml)\)

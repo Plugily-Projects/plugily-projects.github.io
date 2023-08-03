@@ -1,0 +1,42 @@
+---
+id: entity_upgrades
+title: Village Defense Entity Upgrades
+sidebar_label: Entity Upgrades
+---
+---
+import FileFetch from '@site/src/components/FileFetch';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Explained VillageDefense creatures.yml file.
+
+## Default File
+
+* [Latest creatures.yml](https://raw.githubusercontent.com/Plugily-Projects/Village_Defense/master/src/main/resources/entity_upgrades.yml)
+<FileFetch url="https://raw.githubusercontent.com/Plugily-Projects/Village_Defense/master/src/main/resources/entity_upgrades.yml"></FileFetch>
+
+## Work with the file
+
+:::note
+
+Upvote [Feedbacky Idea](https://app.feedbacky.net/i/modifiable-entity-upgrades.4865) to let the upgrades make more modifiable!
+
+:::
+
+You can't add new upgrade types or tiers, they are not modifiable!
+
+```yml
+Entity-Upgrades:
+  # Cost of x tier (in orbs), ex 1: 100 means 1st tier cost 100 orbs to upgrade
+  Health-Tiers:
+    '1': 100
+    '2': 200
+    '3': 350
+    '4': 500
+```
+
+:::tip example
+
+Tier 4 of health cost 500 orbs ingame! It will give a predefined value of health extra to the entity.
+
+:::
