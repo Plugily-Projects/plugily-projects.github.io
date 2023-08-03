@@ -5,7 +5,7 @@ title: Translation program
 
 ## Join the translation program according to your project
 
-| ![](https://wiki.plugily.xyz/img/VD.png) VillageDefense           | ![](https://wiki.plugily.xyz/img/BB.png) BuildBattle              | ![](https://wiki.plugily.xyz/img/MM.png) MurderMystery            | ![](https://wiki.plugily.xyz/img/TB.png) TheBridge                |
+| ![](https://wiki.plugily.xyz/img/plugily/VD.png) VillageDefense           | ![](https://wiki.plugily.xyz/img/plugily/BB.png) BuildBattle              | ![](https://wiki.plugily.xyz/img/plugily/MM.png) MurderMystery            | ![](https://wiki.plugily.xyz/img/plugily/TB.png) TheBridge                |
 |-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
 | [Translate it](https://poeditor.com/join/project?hash=w8GqqwkET1) | [Translate it](https://poeditor.com/join/project?hash=wEpcZ7Htnn) | [Translate it](https://poeditor.com/join/project?hash=doHF7qKEa0) | [Translate it](https://poeditor.com/join/project?hash=fcumqbfkTc) |
 ## What are fuzzy translations / Translations are wrong but it tells 100 percent done / placeholders are wrong on the translation

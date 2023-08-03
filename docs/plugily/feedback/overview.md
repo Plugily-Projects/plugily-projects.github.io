@@ -6,7 +6,7 @@ slug: /plugily/feedback/
 
 ## Start to share your ideas
 
-| ![](https://wiki.plugily.xyz/img/VD.png) VillageDefense           | ![](https://wiki.plugily.xyz/img/BB.png) BuildBattle              | ![](https://wiki.plugily.xyz/img/MM.png) MurderMystery            | ![](https://wiki.plugily.xyz/img/TB.png) TheBridge                |
+| ![](https://wiki.plugily.xyz/img/plugily/VD.png) VillageDefense           | ![](https://wiki.plugily.xyz/img/plugily/BB.png) BuildBattle              | ![](https://wiki.plugily.xyz/img/plugily/MM.png) MurderMystery            | ![](https://wiki.plugily.xyz/img/plugily/TB.png) TheBridge                |
 |-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
 | [Add idea to VD](https://app.feedbacky.net/b/VillageDefense) | [Add idea to BB](https://app.feedbacky.net/b/BuildBattle) | [Add idea to VD](https://app.feedbacky.net/b/MurderMystery) | [Add idea to VD](https://app.feedbacky.net/b/TheBridge) |
 
