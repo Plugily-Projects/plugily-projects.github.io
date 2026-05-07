@@ -162,9 +162,9 @@ We may update this privacy notice from time to time. The updated version will be
 If you have questions or comments about this notice, you may email us at **management@plugily.xyz** (preferred) or by post to:
 
     Julian-Max Maschke
-    c/o autorenglück.de
-    Franz-Mehring-Str. 15
-    01237 Dresden
+    c/o Autorenglück #68319
+    Albert-Einstein-Str. 47
+    02977 Hoyerswerda
     Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)

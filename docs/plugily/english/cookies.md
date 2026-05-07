@@ -30,6 +30,10 @@ In addition, most advertising networks offer you a way to opt out of targeted ad
 The specific types of first and third party cookies served through our Websites and the purposes they perform are described in the table below (please note that the specific cookies served may vary depending on the specific Online Properties you visit):
 
 
+<a href="#cookiebanner">
+<button type="button">Show Cookie Settings</button>
+</a>
+
 ### Essential website cookies:
 
 These cookies are strictly necessary to provide you with services available through our Websites and to use some of its features, such as access to secure areas.
@@ -44,9 +48,6 @@ These cookies are used to make advertising messages more relevant to you. They p
 ### Unclassified cookies:
 These are cookies that have not yet been categorized. We are in the process of classifying these cookies with the help of their providers.
 
-
-<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
-<div id="ot-sdk-cookie-policy"></div>
 
 ## What about other tracking technologies, like web beacons?
 
@@ -75,9 +76,9 @@ The date at the bottom of this Cookie Policy indicates when it was last updated.
 If you have any questions about our use of cookies or other technologies, please email us at management@plugily.xyz or by post to:
 
     Julian-Max Maschke
-    c/o autorenglück.de
-    Franz-Mehring-Str. 15
-    01237 Dresden
+    c/o Autorenglück #68319
+    Albert-Einstein-Str. 47
+    02977 Hoyerswerda
     Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)

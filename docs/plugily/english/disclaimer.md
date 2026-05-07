@@ -5,9 +5,9 @@ title: Disclaimer
 
 ## Contact:
     Julian-Max Maschke
-    c/o autorenglück.de
-    Franz-Mehring-Str. 15
-    01237 Dresden
+    c/o Autorenglück #68319
+    Albert-Einstein-Str. 47
+    02977 Hoyerswerda
     Germany
 
 Email: [management@plugily.xyz](mailto:management@plugily.xyz)

@@ -62,9 +62,9 @@ UPPERCASE WORDS needs to be replaced by your own!
 
 | Placeholder                      | PlaceholderAPI                                  | Description                                                                                                     | Type   |
 |----------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------|
-| `%player%`         | `internal`         | Get the player name it gets executed                                                                                          | GLOBAL/REWARDS |
-| `%player_uuid%`         | `internal`         | Get the player uuid it gets executed                                                                                         | GLOBAL/REWARDS |
-| `%arena_players_online%`         | `%PLUGININDICATOR_arena_ARENAID_players_online%`         | Get all players online                                                                                          | GLOBAL |
+| `%player%`         | `internal`         | Get the player name it gets executed                                                                                          | GLOBAL / REWARDS |
+| `%player_uuid%`         | `internal`         | Get the player uuid it gets executed                                                                                         | GLOBAL / REWARDS |
+| `%arena_players_online%`         | `%PLUGININDICATOR_arena_ARENAID_players_online%`         | Get all players online                                                                                          | GLOBAL / ARENA |
 | `%user_statistic_STATISTICTYPE%` | `%PLUGININDICATOR_user_statistic_STATISTICTYPE%` | Get statistic of the "executed" player                                                                          | GLOBAL |
 | `%user_kit%`                     | `%PLUGININDICATOR_user_kit%`                     | Get kit of the "executed" player                                                                                | GLOBAL |
 | `%arena_players%`                | `%PLUGININDICATOR_arena_ARENAID_players%`              | Get players from arena online                                                                                   | ARENA  |
@@ -74,8 +74,15 @@ UPPERCASE WORDS needs to be replaced by your own!
 | `%arena_state_pretty%`           | `%PLUGININDICATOR_arena_ARENAID_state_pretty%`         | Get current formatted state of arena                                                                            | ARENA  |
 | `%arena_name%`                   | `%PLUGININDICATOR_arena_ARENAID_name%`                 | Get the name of arena                                                                                           | ARENA  |
 | `%arena_timer%`                  | `%PLUGININDICATOR_arena_ARENAID_timer%`                | Get current timer of arena                                                                                      | ARENA  |
+| `%arena_timer_pretty%`                  | `%PLUGININDICATOR_arena_ARENAID_timer_pretty%`                | Get current timer of arena in a better format with :                                              | ARENA  |
 | `%arena_summary%`                  | `%PLUGININDICATOR_arena_ARENAID_summary%`                | Get game end summary of arena                                                                                     | ARENA  |
 | `%arena_summary_player%`                  | `%PLUGININDICATOR_arena_ARENAID_summary_player%`                | Get game end summary of player                                                                                     | ARENA  |
+| `%current_arena_id%`                  | `%PLUGININDICATOR_current_arena_id%`                | Get the current arena id from player (empty if no arena)                                                                                     | GLOBAL / PLAYER  |
+| `%arena_current_state%`                  | `%PLUGININDICATOR_arena_current_state%`                | Get the current arena state from player (empty if no arena)                                                                                     | GLOBAL / PLAYER  |
+| `%arena_current_name%`                  | `%PLUGININDICATOR_arena_current_name%`                | Get the current arena name from player (empty if no arena)                                                                                     | GLOBAL / PLAYER  |
+| `%arena_current_players%`                  | `%PLUGININDICATOR_arena_current_players%`                | Get the current arena players from player (empty if no arena)                                                                                     | GLOBAL / PLAYER  |
+| `%arena_current_max_players%`                  | `%PLUGININDICATOR_arena_current_max_players%`                | Get the current arena max players from player (empty if no arena)                                                                                     | GLOBAL / PLAYER  |
+| `%arena_current_timer%`                  | `%PLUGININDICATOR_arena_current_timer%`                | Get the current arena timer from player (empty if no arena)                                                                                     | GLOBAL / PLAYER  |
 
 :::info
 You will need to replace...
@@ -148,6 +155,10 @@ You will need to replace...
 :::
 
 ## Plugin Specific Placeholders
+
+:::note
+UPPERCASE WORDS needs to be replaced by your own!
+:::
 
 <Tabs groupId="minigame" defaultValue="villagedefense" queryString
   values={[

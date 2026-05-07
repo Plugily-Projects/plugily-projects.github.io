@@ -9,9 +9,9 @@ Wir informieren Sie nachfolgend gemäß den gesetzlichen Vorgaben des Datenschut
 Unser/e Verantwortliche/r (nachfolgend „Verantwortlicher“) i.S.d. Art. 4 Zif. 7 DS-GVO ist:
 
     Julian-Max Maschke
-    c/o autorenglück.de
-    Franz-Mehring-Str. 15
-    01237 Dresden
+    c/o Autorenglück #68319
+    Albert-Einstein-Str. 47
+    02977 Hoyerswerda
     Germany
 
 E-Mail-Adresse: [management@plugily.xyz](mailto:management@plugily.xyz)
@@ -121,24 +121,23 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
     **Cookie-Einstellungen bearbeiten bzw. diesen widersprechen:**
 
-    <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
-    <div id="ot-sdk-cookie-policy"></div>
+    <a href="#cookiebanner">
+    <button type="button">Show Cookie Settings</button>
+    </a>
 
-## **Cookie Consent Lösungen**
+## **Cookie Consent Lösung**
 
 ### **Consent Manager Provider**
 
-1.  Wir haben auf unserer Website den CookiePro by OneTrust (CookiePro) (Diensteanbieter: London, England (Co-Headquarters), 82 St John St, Farringdon, London, EC 1M 4JN, Website: https://www.cookiepro.com/) als Zustimmungsverwaltungsdienst integriert.
+1.  Wir haben auf unserer Website den tarteaucitron von Amauri (Open Source Edition, Selfhosted unter https://plugily.xyz/tarteaucitron/tarteaucitron.js) als Zustimmungsverwaltungsdienst integriert.
 
-2.  **Datenkategorien und Beschreibung der Datenverarbeitung:** Cookies, Datum und Uhrzeit des Besuchs, Geräteinformation, Browser-Informationen, Anonymisierte IP-Adresse, Opt-in und Opt-out-Daten. Durch diesen Dienst können wir Ihre Einwilligung zur Speicherung von Cookies einholen und diese auch dokumentieren. Zudem wird dazu ein Cookie in Ihrem Browser gespeichert, um Ihnen die erteilte Einwilligung bzw. deren Widerruf zuordnen zu können. Nachfolgend finden Sie weitere Informationen in der Datenschutzerklärung des Datenverarbeiters CookiePro: [https://www.onetrust.com/privacy/](https://www.onetrust.com/privacy/).
+2.  **Datenkategorien und Beschreibung der Datenverarbeitung:** Cookies, Datum und Uhrzeit des Besuchs, Geräteinformation, Browser-Informationen, Anonymisierte IP-Adresse, Opt-in und Opt-out-Daten. Durch diesen Dienst können wir Ihre Einwilligung zur Speicherung von Cookies einholen und diese auch dokumentieren. Zudem wird dazu ein Cookie in Ihrem Browser gespeichert, um Ihnen die erteilte Einwilligung bzw. deren Widerruf zuordnen zu können. (Name: cookiebanner)
 
 3.  **Zwecke der Datenverarbeitung:** Einhaltung gesetzlicher Verpflichtungen, Zustimmungsspeicher.
 
 4.  **Rechtsgrundlagen:** Die Rechtsgrundlage für die Verarbeitung der personenbezogenen Daten ist unser in den obigen Zwecken liegendes berechtigtes Interesse gemäß Art. 6 Abs. 1 S. 1 lit. f) DS-GVO sowie die Erfüllung gesetzlicher Pflichten nach Art. 6 Abs. 1 S. 1 lit. c) DS-GVO.
 
-5.  **Speicherdauer:** Speicherung der Daten bis Sie das CookiePro-Cookie in Ihrem Browser selbst löschen oder der Zweck für die Datenspeicherung entfällt. Der Widerrufsbeleg einer vormals erteilten Einwilligung wird für die Dauer von drei Jahren aufbewahrt. Die Aufbewahrung gründet zum einen in unserer Rechenschaftspflicht gemäß Art. 5 Abs. 2 DSGVO.
-
-6.  **Datenübermittlung/Empfängerkategorie:** CookiePro Anbieter in Europa und Außerhalb. Wir haben deshalb einen Vertrag zur Auftragsverarbeitung nach Art. 28 DS-GVO mit dem Datenverarbeiter abgeschlossen.
+5.  **Speicherdauer:** Speicherung der Daten bis Sie das Cookie in Ihrem Browser selbst löschen oder der Zweck für die Datenspeicherung entfällt, sowie automatisch nach 365 Tagen. Die Aufbewahrung gründet zum einen in unserer Rechenschaftspflicht gemäß Art. 5 Abs. 2 DSGVO.
 
 
 ## **Google ReCAPTCHA**
