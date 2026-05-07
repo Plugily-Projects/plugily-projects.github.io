@@ -12,14 +12,13 @@ export default class YoutubeEmbed extends React.Component {
     }
     render() {
         return (
-            <div class="youtube_player" className={styles.videoContainer}>
+            <div className={styles.videoContainer}>
                 <LiteYouTubeEmbed
                     id={this.props.source}
                     params={this.props.params}
                     title={this.props.title}
                     cookie={false}
                     adNetwork={false}
-                    referrerPolicy="no-referrer"
                     lazyLoad={true}
                     poster="maxresdefault"
                     webp
